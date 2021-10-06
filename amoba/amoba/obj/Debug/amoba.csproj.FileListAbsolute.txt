@@ -1,0 +1,11 @@
+D:\BB\amoba\amoba\bin\Debug\amoba.exe.config
+D:\BB\amoba\amoba\bin\Debug\amoba.exe
+D:\BB\amoba\amoba\bin\Debug\amoba.pdb
+D:\BB\amoba\amoba\obj\Debug\amoba.csproj.AssemblyReference.cache
+D:\BB\amoba\amoba\obj\Debug\amoba.Form1.resources
+D:\BB\amoba\amoba\obj\Debug\amoba.JatekTer.resources
+D:\BB\amoba\amoba\obj\Debug\amoba.Properties.Resources.resources
+D:\BB\amoba\amoba\obj\Debug\amoba.csproj.GenerateResource.cache
+D:\BB\amoba\amoba\obj\Debug\amoba.csproj.CoreCompileInputs.cache
+D:\BB\amoba\amoba\obj\Debug\amoba.exe
+D:\BB\amoba\amoba\obj\Debug\amoba.pdb

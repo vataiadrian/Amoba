@@ -16,5 +16,12 @@ namespace amoba
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            JatekTer jatekter = new JatekTer();
+            this.Hide();
+            jatekter.ShowDialog(this);
+        }
     }
 }

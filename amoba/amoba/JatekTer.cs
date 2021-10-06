@@ -15,6 +15,16 @@ namespace amoba
         public JatekTer()
         {
             InitializeComponent();
+
+            GoFullscreen(true);
+        }
+
+        //Design
+        private void GoFullscreen(bool fullscreen)
+        {
+            this.WindowState = FormWindowState.Maximized;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Bounds = Screen.PrimaryScreen.Bounds;
         }
     }
 }
