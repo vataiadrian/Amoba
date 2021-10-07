@@ -61,5 +61,18 @@ namespace amoba
         {
 
         }
+
+        private void JatekTer_Load(object sender, EventArgs e)
+        {
+            Random r = new Random();
+            if (r.Next(0, 100) >= 50)
+            {
+
+            }
+            else
+            {
+
+            }
+        }
     }
 }

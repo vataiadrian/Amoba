@@ -30,6 +30,10 @@ namespace amoba
         private void InitializeComponent()
         {
             this.guna2GradientPanel102 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.restertbtn = new System.Windows.Forms.Button();
+            this.menubtn = new System.Windows.Forms.Button();
+            this.kilepesbtn = new System.Windows.Forms.Button();
             this.lbl1 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -130,10 +134,6 @@ namespace amoba
             this.label97 = new System.Windows.Forms.Label();
             this.label98 = new System.Windows.Forms.Label();
             this.label99 = new System.Windows.Forms.Label();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.kilepesbtn = new System.Windows.Forms.Button();
-            this.menubtn = new System.Windows.Forms.Button();
-            this.restertbtn = new System.Windows.Forms.Button();
             this.guna2GradientPanel102.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
@@ -150,6 +150,61 @@ namespace amoba
             this.guna2GradientPanel102.ShadowDecoration.Parent = this.guna2GradientPanel102;
             this.guna2GradientPanel102.Size = new System.Drawing.Size(1397, 823);
             this.guna2GradientPanel102.TabIndex = 3;
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
+            this.guna2Panel1.Controls.Add(this.restertbtn);
+            this.guna2Panel1.Controls.Add(this.menubtn);
+            this.guna2Panel1.Controls.Add(this.kilepesbtn);
+            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
+            this.guna2Panel1.Size = new System.Drawing.Size(233, 823);
+            this.guna2Panel1.TabIndex = 0;
+            this.guna2Panel1.Visible = false;
+            // 
+            // restertbtn
+            // 
+            this.restertbtn.FlatAppearance.BorderSize = 0;
+            this.restertbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.restertbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.restertbtn.Location = new System.Drawing.Point(0, 152);
+            this.restertbtn.Name = "restertbtn";
+            this.restertbtn.Size = new System.Drawing.Size(233, 54);
+            this.restertbtn.TabIndex = 2;
+            this.restertbtn.Text = "Új játék";
+            this.restertbtn.UseVisualStyleBackColor = true;
+            this.restertbtn.Click += new System.EventHandler(this.restertbtn_Click);
+            // 
+            // menubtn
+            // 
+            this.menubtn.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.menubtn.FlatAppearance.BorderSize = 0;
+            this.menubtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.menubtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.menubtn.Location = new System.Drawing.Point(0, 715);
+            this.menubtn.Name = "menubtn";
+            this.menubtn.Size = new System.Drawing.Size(233, 54);
+            this.menubtn.TabIndex = 1;
+            this.menubtn.Text = "Vissza a menübe";
+            this.menubtn.UseVisualStyleBackColor = true;
+            this.menubtn.Click += new System.EventHandler(this.menubtn_Click);
+            // 
+            // kilepesbtn
+            // 
+            this.kilepesbtn.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.kilepesbtn.FlatAppearance.BorderSize = 0;
+            this.kilepesbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.kilepesbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.kilepesbtn.Location = new System.Drawing.Point(0, 769);
+            this.kilepesbtn.Name = "kilepesbtn";
+            this.kilepesbtn.Size = new System.Drawing.Size(233, 54);
+            this.kilepesbtn.TabIndex = 1;
+            this.kilepesbtn.Text = "Kilépés";
+            this.kilepesbtn.UseVisualStyleBackColor = true;
+            this.kilepesbtn.Click += new System.EventHandler(this.kilepesbtn_Click);
             // 
             // lbl1
             // 
@@ -1451,61 +1506,6 @@ namespace amoba
             this.label99.TabIndex = 98;
             this.label99.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            this.guna2Panel1.Controls.Add(this.restertbtn);
-            this.guna2Panel1.Controls.Add(this.menubtn);
-            this.guna2Panel1.Controls.Add(this.kilepesbtn);
-            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(233, 823);
-            this.guna2Panel1.TabIndex = 0;
-            this.guna2Panel1.Visible = false;
-            // 
-            // kilepesbtn
-            // 
-            this.kilepesbtn.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.kilepesbtn.FlatAppearance.BorderSize = 0;
-            this.kilepesbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.kilepesbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.kilepesbtn.Location = new System.Drawing.Point(0, 769);
-            this.kilepesbtn.Name = "kilepesbtn";
-            this.kilepesbtn.Size = new System.Drawing.Size(233, 54);
-            this.kilepesbtn.TabIndex = 1;
-            this.kilepesbtn.Text = "Kilépés";
-            this.kilepesbtn.UseVisualStyleBackColor = true;
-            this.kilepesbtn.Click += new System.EventHandler(this.kilepesbtn_Click);
-            // 
-            // menubtn
-            // 
-            this.menubtn.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.menubtn.FlatAppearance.BorderSize = 0;
-            this.menubtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.menubtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.menubtn.Location = new System.Drawing.Point(0, 715);
-            this.menubtn.Name = "menubtn";
-            this.menubtn.Size = new System.Drawing.Size(233, 54);
-            this.menubtn.TabIndex = 1;
-            this.menubtn.Text = "Vissza a menübe";
-            this.menubtn.UseVisualStyleBackColor = true;
-            this.menubtn.Click += new System.EventHandler(this.menubtn_Click);
-            // 
-            // restertbtn
-            // 
-            this.restertbtn.FlatAppearance.BorderSize = 0;
-            this.restertbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.restertbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.restertbtn.Location = new System.Drawing.Point(0, 152);
-            this.restertbtn.Name = "restertbtn";
-            this.restertbtn.Size = new System.Drawing.Size(233, 54);
-            this.restertbtn.TabIndex = 2;
-            this.restertbtn.Text = "Új játék";
-            this.restertbtn.UseVisualStyleBackColor = true;
-            this.restertbtn.Click += new System.EventHandler(this.restertbtn_Click);
-            // 
             // JatekTer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1614,6 +1614,7 @@ namespace amoba
             this.Controls.Add(this.guna2GradientPanel102);
             this.Name = "JatekTer";
             this.Text = "JatekTer";
+            this.Load += new System.EventHandler(this.JatekTer_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.JatekTer_KeyDown);
             this.guna2GradientPanel102.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);
