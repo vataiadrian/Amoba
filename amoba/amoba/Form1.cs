@@ -25,6 +25,8 @@ namespace amoba
 
             elsojatekos = jatekosnev1tb.Text;
             masodikjateko = jatekosnev2tb.Text;
+            
+            
 
             JatekTer jatekter = new JatekTer();
             this.Hide();
