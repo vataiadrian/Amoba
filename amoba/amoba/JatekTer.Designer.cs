@@ -30,20 +30,18 @@ namespace amoba
         private void InitializeComponent()
         {
             this.guna2GradientPanel102 = new Guna.UI2.WinForms.Guna2GradientPanel();
-<<<<<<< HEAD
+
             this.label101 = new System.Windows.Forms.Label();
             this.panelX = new Guna.UI2.WinForms.Guna2Panel();
-=======
->>>>>>> 06165cf58003203fd997670fa682acd55f05136e
+
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.restertbtn = new System.Windows.Forms.Button();
             this.menubtn = new System.Windows.Forms.Button();
             this.kilepesbtn = new System.Windows.Forms.Button();
-<<<<<<< HEAD
+
             this.panelO = new Guna.UI2.WinForms.Guna2Panel();
             this.label100 = new System.Windows.Forms.Label();
-=======
->>>>>>> 06165cf58003203fd997670fa682acd55f05136e
+
             this.lbl1 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -144,10 +142,7 @@ namespace amoba
             this.label97 = new System.Windows.Forms.Label();
             this.label98 = new System.Windows.Forms.Label();
             this.label99 = new System.Windows.Forms.Label();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
+
             this.kilepesbtn = new System.Windows.Forms.Button();
             this.menubtn = new System.Windows.Forms.Button();
             this.restertbtn = new System.Windows.Forms.Button();
@@ -156,8 +151,7 @@ namespace amoba
             this.panelO = new Guna.UI2.WinForms.Guna2Panel();
             this.label100 = new System.Windows.Forms.Label();
             this.label101 = new System.Windows.Forms.Label();
->>>>>>> 03e7ea9c2182797f446e5bf30c5da7b84db68bb1
->>>>>>> 06165cf58003203fd997670fa682acd55f05136e
+
             this.guna2GradientPanel102.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
@@ -179,7 +173,7 @@ namespace amoba
             this.guna2GradientPanel102.Size = new System.Drawing.Size(1397, 823);
             this.guna2GradientPanel102.TabIndex = 3;
             // 
-<<<<<<< HEAD
+
             // label101
             // 
             this.label101.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -203,8 +197,7 @@ namespace amoba
             this.panelX.Size = new System.Drawing.Size(200, 50);
             this.panelX.TabIndex = 1;
             // 
-=======
->>>>>>> 06165cf58003203fd997670fa682acd55f05136e
+
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
@@ -215,11 +208,11 @@ namespace amoba
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-<<<<<<< HEAD
+
             this.guna2Panel1.Size = new System.Drawing.Size(242, 823);
-=======
+
             this.guna2Panel1.Size = new System.Drawing.Size(233, 823);
->>>>>>> 06165cf58003203fd997670fa682acd55f05136e
+
             this.guna2Panel1.TabIndex = 0;
             this.guna2Panel1.Visible = false;
             // 
@@ -244,11 +237,11 @@ namespace amoba
             this.menubtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.menubtn.Location = new System.Drawing.Point(0, 715);
             this.menubtn.Name = "menubtn";
-<<<<<<< HEAD
+
             this.menubtn.Size = new System.Drawing.Size(242, 54);
-=======
+
             this.menubtn.Size = new System.Drawing.Size(233, 54);
->>>>>>> 06165cf58003203fd997670fa682acd55f05136e
+
             this.menubtn.TabIndex = 1;
             this.menubtn.Text = "Vissza a menübe";
             this.menubtn.UseVisualStyleBackColor = true;
@@ -262,17 +255,17 @@ namespace amoba
             this.kilepesbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.kilepesbtn.Location = new System.Drawing.Point(0, 769);
             this.kilepesbtn.Name = "kilepesbtn";
-<<<<<<< HEAD
+
             this.kilepesbtn.Size = new System.Drawing.Size(242, 54);
-=======
+
             this.kilepesbtn.Size = new System.Drawing.Size(233, 54);
->>>>>>> 06165cf58003203fd997670fa682acd55f05136e
+
             this.kilepesbtn.TabIndex = 1;
             this.kilepesbtn.Text = "Kilépés";
             this.kilepesbtn.UseVisualStyleBackColor = true;
             this.kilepesbtn.Click += new System.EventHandler(this.kilepesbtn_Click);
             // 
-<<<<<<< HEAD
+
             // panelO
             // 
             this.panelO.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -296,8 +289,7 @@ namespace amoba
             this.label100.TabIndex = 3;
             this.label100.Text = "O";
             // 
-=======
->>>>>>> 06165cf58003203fd997670fa682acd55f05136e
+
             // lbl1
             // 
             this.lbl1.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -1598,10 +1590,8 @@ namespace amoba
             this.label99.TabIndex = 98;
             this.label99.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
+
+
             // kilepesbtn
             // 
             this.kilepesbtn.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -1703,8 +1693,6 @@ namespace amoba
             this.label101.TabIndex = 4;
             this.label101.Text = "X";
             // 
->>>>>>> 03e7ea9c2182797f446e5bf30c5da7b84db68bb1
->>>>>>> 06165cf58003203fd997670fa682acd55f05136e
             // JatekTer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
