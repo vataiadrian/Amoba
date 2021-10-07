@@ -23,11 +23,19 @@ namespace amoba
         private void button1_Click(object sender, EventArgs e)
         {
             elsojatekos = jatekosnev1tb.Text;
-            masodikjateko = jatekosnev2tb.Text;
+            masodikjatekos = jatekosnev2tb.Text;
 
-            JatekTer jatekter = new JatekTer();
-            this.Hide();
-            jatekter.ShowDialog(this);
+            if (elsojatekos != "" && masodikjatekos != "")
+            {
+                JatekTer jatekter = new JatekTer();
+                this.Hide();
+                jatekter.ShowDialog(this);
+            }
+            else
+            {
+                MessageBox.Show("Kérem adja meg a nevét!", "Hiányzó név", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
         }
     }
 }
