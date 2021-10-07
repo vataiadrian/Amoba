@@ -46,6 +46,7 @@ namespace amoba
                     label70.Visible = false; label71.Visible = false; label72.Visible = false; label73.Visible = false; label74.Visible = false; label75.Visible = false; label76.Visible = false; label77.Visible = false; label78.Visible = false; label79.Visible = false;
                     label80.Visible = false; label81.Visible = false; label82.Visible = false; label83.Visible = false; label84.Visible = false; label85.Visible = false; label86.Visible = false; label87.Visible = false; label88.Visible = false; label89.Visible = false;
                     label90.Visible = false; label91.Visible = false; label92.Visible = false; label93.Visible = false; label94.Visible = false; label95.Visible = false; label96.Visible = false; label97.Visible = false; label98.Visible = false; label99.Visible = false;
+                    panelO.Visible = false; panelX.Visible = false; label100.Visible = false; label101.Visible = false;
                 }
                 else
                 {
@@ -61,6 +62,7 @@ namespace amoba
                     label70.Visible = true; label71.Visible = true; label72.Visible = true; label73.Visible = true; label74.Visible = true; label75.Visible = true; label76.Visible = true; label77.Visible = true; label78.Visible = true; label79.Visible = true;
                     label80.Visible = true; label81.Visible = true; label82.Visible = true; label83.Visible = true; label84.Visible = true; label85.Visible = true; label86.Visible = true; label87.Visible = true; label88.Visible = true; label89.Visible = true;
                     label90.Visible = true; label91.Visible = true; label92.Visible = true; label93.Visible = true; label94.Visible = true; label95.Visible = true; label96.Visible = true; label97.Visible = true; label98.Visible = true; label99.Visible = true;
+                    panelO.Visible = true; panelX.Visible = true; label100.Visible = true; label101.Visible = true;
                 }
 
             }
