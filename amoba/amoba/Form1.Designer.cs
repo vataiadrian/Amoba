@@ -74,6 +74,7 @@ namespace amoba
             this.jatekosnev1tb.Name = "jatekosnev1tb";
             this.jatekosnev1tb.Size = new System.Drawing.Size(100, 31);
             this.jatekosnev1tb.TabIndex = 3;
+            this.jatekosnev1tb.Text = "a";
             // 
             // jatekosnev2tb
             // 
@@ -82,6 +83,7 @@ namespace amoba
             this.jatekosnev2tb.Name = "jatekosnev2tb";
             this.jatekosnev2tb.Size = new System.Drawing.Size(100, 31);
             this.jatekosnev2tb.TabIndex = 4;
+            this.jatekosnev2tb.Text = "d";
             // 
             // Form1
             // 
