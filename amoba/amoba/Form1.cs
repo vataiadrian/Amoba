@@ -18,12 +18,16 @@ namespace amoba
         public Form1()
         {
             InitializeComponent();
+            jatekosnev1tb.Text = "sadfsad";
+            jatekosnev2tb.Text = "asdfasd";
         }        
      
         private void button1_Click(object sender, EventArgs e)
         {
             elsojatekos = jatekosnev1tb.Text;
             masodikjatekos = jatekosnev2tb.Text;
+
+            
 
             if (elsojatekos != "" && masodikjatekos != "")
             {

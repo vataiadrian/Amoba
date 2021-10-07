@@ -12,6 +12,7 @@ namespace amoba
 {
     public partial class JatekTer : Form
     {
+        static string[] labels = new string[];
         public JatekTer()
         {
             InitializeComponent();
@@ -36,6 +37,7 @@ namespace amoba
                 {
                     guna2Panel1.Visible = true;
                     esc = true;
+
                 }
                 else
                 {
