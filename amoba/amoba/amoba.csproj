@@ -61,6 +61,7 @@
     <Compile Include="JatekTer.Designer.cs">
       <DependentUpon>JatekTer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Nevek.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
