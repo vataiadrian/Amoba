@@ -9,3 +9,16 @@ D:\BB\amoba\amoba\obj\Debug\amoba.csproj.GenerateResource.cache
 D:\BB\amoba\amoba\obj\Debug\amoba.csproj.CoreCompileInputs.cache
 D:\BB\amoba\amoba\obj\Debug\amoba.exe
 D:\BB\amoba\amoba\obj\Debug\amoba.pdb
+C:\Users\borosbarnabas\source\repos\Amoba\amoba\amoba\bin\Debug\amoba.exe.config
+C:\Users\borosbarnabas\source\repos\Amoba\amoba\amoba\bin\Debug\amoba.exe
+C:\Users\borosbarnabas\source\repos\Amoba\amoba\amoba\bin\Debug\amoba.pdb
+C:\Users\borosbarnabas\source\repos\Amoba\amoba\amoba\bin\Debug\Guna.UI2.dll
+C:\Users\borosbarnabas\source\repos\Amoba\amoba\amoba\obj\Debug\amoba.csprojAssemblyReference.cache
+C:\Users\borosbarnabas\source\repos\Amoba\amoba\amoba\obj\Debug\amoba.Form1.resources
+C:\Users\borosbarnabas\source\repos\Amoba\amoba\amoba\obj\Debug\amoba.JatekTer.resources
+C:\Users\borosbarnabas\source\repos\Amoba\amoba\amoba\obj\Debug\amoba.Properties.Resources.resources
+C:\Users\borosbarnabas\source\repos\Amoba\amoba\amoba\obj\Debug\amoba.csproj.GenerateResource.cache
+C:\Users\borosbarnabas\source\repos\Amoba\amoba\amoba\obj\Debug\amoba.csproj.CoreCompileInputs.cache
+C:\Users\borosbarnabas\source\repos\Amoba\amoba\amoba\obj\Debug\amoba.csproj.CopyComplete
+C:\Users\borosbarnabas\source\repos\Amoba\amoba\amoba\obj\Debug\amoba.exe
+C:\Users\borosbarnabas\source\repos\Amoba\amoba\amoba\obj\Debug\amoba.pdb
