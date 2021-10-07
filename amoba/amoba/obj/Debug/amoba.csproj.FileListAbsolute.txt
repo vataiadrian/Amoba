@@ -22,3 +22,16 @@ C:\Users\borosbarnabas\source\repos\Amoba\amoba\amoba\obj\Debug\amoba.csproj.Cor
 C:\Users\borosbarnabas\source\repos\Amoba\amoba\amoba\obj\Debug\amoba.csproj.CopyComplete
 C:\Users\borosbarnabas\source\repos\Amoba\amoba\amoba\obj\Debug\amoba.exe
 C:\Users\borosbarnabas\source\repos\Amoba\amoba\amoba\obj\Debug\amoba.pdb
+C:\Users\vataiadrianzsolt\Source\Repos\Amoba\amoba\amoba\bin\Debug\amoba.exe.config
+C:\Users\vataiadrianzsolt\Source\Repos\Amoba\amoba\amoba\bin\Debug\amoba.exe
+C:\Users\vataiadrianzsolt\Source\Repos\Amoba\amoba\amoba\bin\Debug\amoba.pdb
+C:\Users\vataiadrianzsolt\Source\Repos\Amoba\amoba\amoba\bin\Debug\Guna.UI2.dll
+C:\Users\vataiadrianzsolt\Source\Repos\Amoba\amoba\amoba\obj\Debug\amoba.csprojAssemblyReference.cache
+C:\Users\vataiadrianzsolt\Source\Repos\Amoba\amoba\amoba\obj\Debug\amoba.Form1.resources
+C:\Users\vataiadrianzsolt\Source\Repos\Amoba\amoba\amoba\obj\Debug\amoba.JatekTer.resources
+C:\Users\vataiadrianzsolt\Source\Repos\Amoba\amoba\amoba\obj\Debug\amoba.Properties.Resources.resources
+C:\Users\vataiadrianzsolt\Source\Repos\Amoba\amoba\amoba\obj\Debug\amoba.csproj.GenerateResource.cache
+C:\Users\vataiadrianzsolt\Source\Repos\Amoba\amoba\amoba\obj\Debug\amoba.csproj.CoreCompileInputs.cache
+C:\Users\vataiadrianzsolt\Source\Repos\Amoba\amoba\amoba\obj\Debug\amoba.csproj.CopyComplete
+C:\Users\vataiadrianzsolt\Source\Repos\Amoba\amoba\amoba\obj\Debug\amoba.exe
+C:\Users\vataiadrianzsolt\Source\Repos\Amoba\amoba\amoba\obj\Debug\amoba.pdb
