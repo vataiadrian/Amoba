@@ -130,12 +130,20 @@ namespace amoba
             this.label97 = new System.Windows.Forms.Label();
             this.label98 = new System.Windows.Forms.Label();
             this.label99 = new System.Windows.Forms.Label();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.kilepesbtn = new System.Windows.Forms.Button();
+            this.menubtn = new System.Windows.Forms.Button();
+            this.restertbtn = new System.Windows.Forms.Button();
+            this.guna2GradientPanel102.SuspendLayout();
+            this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2GradientPanel102
             // 
             this.guna2GradientPanel102.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(68)))), ((int)(((byte)(149)))));
+            this.guna2GradientPanel102.Controls.Add(this.guna2Panel1);
             this.guna2GradientPanel102.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel102.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(181)))), ((int)(((byte)(15)))));
             this.guna2GradientPanel102.FillColor2 = System.Drawing.Color.Black;
             this.guna2GradientPanel102.Location = new System.Drawing.Point(0, 0);
             this.guna2GradientPanel102.Name = "guna2GradientPanel102";
@@ -146,7 +154,7 @@ namespace amoba
             // lbl1
             // 
             this.lbl1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lbl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.lbl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.lbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.lbl1.ForeColor = System.Drawing.Color.White;
             this.lbl1.Location = new System.Drawing.Point(367, 33);
@@ -159,7 +167,7 @@ namespace amoba
             // label1
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(434, 33);
@@ -172,7 +180,7 @@ namespace amoba
             // label2
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(568, 33);
@@ -185,7 +193,7 @@ namespace amoba
             // label3
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(501, 33);
@@ -198,7 +206,7 @@ namespace amoba
             // label4
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(702, 33);
@@ -211,7 +219,7 @@ namespace amoba
             // label5
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(635, 33);
@@ -224,7 +232,7 @@ namespace amoba
             // label6
             // 
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(702, 100);
@@ -237,7 +245,7 @@ namespace amoba
             // label7
             // 
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(635, 100);
@@ -250,7 +258,7 @@ namespace amoba
             // label8
             // 
             this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(568, 100);
@@ -263,7 +271,7 @@ namespace amoba
             // label9
             // 
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(501, 100);
@@ -276,7 +284,7 @@ namespace amoba
             // label10
             // 
             this.label10.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.Location = new System.Drawing.Point(434, 100);
@@ -289,7 +297,7 @@ namespace amoba
             // label11
             // 
             this.label11.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.Location = new System.Drawing.Point(367, 100);
@@ -302,7 +310,7 @@ namespace amoba
             // label12
             // 
             this.label12.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label12.ForeColor = System.Drawing.Color.White;
             this.label12.Location = new System.Drawing.Point(434, 234);
@@ -315,7 +323,7 @@ namespace amoba
             // label13
             // 
             this.label13.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label13.ForeColor = System.Drawing.Color.White;
             this.label13.Location = new System.Drawing.Point(367, 234);
@@ -328,7 +336,7 @@ namespace amoba
             // label14
             // 
             this.label14.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label14.ForeColor = System.Drawing.Color.White;
             this.label14.Location = new System.Drawing.Point(568, 234);
@@ -341,7 +349,7 @@ namespace amoba
             // label15
             // 
             this.label15.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label15.ForeColor = System.Drawing.Color.White;
             this.label15.Location = new System.Drawing.Point(501, 234);
@@ -354,7 +362,7 @@ namespace amoba
             // label16
             // 
             this.label16.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label16.ForeColor = System.Drawing.Color.White;
             this.label16.Location = new System.Drawing.Point(702, 234);
@@ -367,7 +375,7 @@ namespace amoba
             // label17
             // 
             this.label17.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label17.ForeColor = System.Drawing.Color.White;
             this.label17.Location = new System.Drawing.Point(635, 234);
@@ -380,7 +388,7 @@ namespace amoba
             // label18
             // 
             this.label18.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label18.ForeColor = System.Drawing.Color.White;
             this.label18.Location = new System.Drawing.Point(702, 167);
@@ -393,7 +401,7 @@ namespace amoba
             // label19
             // 
             this.label19.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label19.ForeColor = System.Drawing.Color.White;
             this.label19.Location = new System.Drawing.Point(635, 167);
@@ -406,7 +414,7 @@ namespace amoba
             // label20
             // 
             this.label20.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label20.ForeColor = System.Drawing.Color.White;
             this.label20.Location = new System.Drawing.Point(568, 167);
@@ -419,7 +427,7 @@ namespace amoba
             // label21
             // 
             this.label21.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label21.ForeColor = System.Drawing.Color.White;
             this.label21.Location = new System.Drawing.Point(501, 167);
@@ -432,7 +440,7 @@ namespace amoba
             // label22
             // 
             this.label22.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label22.ForeColor = System.Drawing.Color.White;
             this.label22.Location = new System.Drawing.Point(434, 167);
@@ -445,7 +453,7 @@ namespace amoba
             // label23
             // 
             this.label23.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label23.ForeColor = System.Drawing.Color.White;
             this.label23.Location = new System.Drawing.Point(367, 167);
@@ -458,7 +466,7 @@ namespace amoba
             // label24
             // 
             this.label24.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label24.ForeColor = System.Drawing.Color.White;
             this.label24.Location = new System.Drawing.Point(434, 368);
@@ -471,7 +479,7 @@ namespace amoba
             // label25
             // 
             this.label25.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label25.ForeColor = System.Drawing.Color.White;
             this.label25.Location = new System.Drawing.Point(367, 368);
@@ -484,7 +492,7 @@ namespace amoba
             // label26
             // 
             this.label26.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label26.ForeColor = System.Drawing.Color.White;
             this.label26.Location = new System.Drawing.Point(568, 368);
@@ -497,7 +505,7 @@ namespace amoba
             // label27
             // 
             this.label27.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label27.ForeColor = System.Drawing.Color.White;
             this.label27.Location = new System.Drawing.Point(501, 368);
@@ -510,7 +518,7 @@ namespace amoba
             // label28
             // 
             this.label28.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label28.ForeColor = System.Drawing.Color.White;
             this.label28.Location = new System.Drawing.Point(702, 368);
@@ -523,7 +531,7 @@ namespace amoba
             // label29
             // 
             this.label29.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label29.ForeColor = System.Drawing.Color.White;
             this.label29.Location = new System.Drawing.Point(635, 368);
@@ -536,7 +544,7 @@ namespace amoba
             // label30
             // 
             this.label30.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label30.ForeColor = System.Drawing.Color.White;
             this.label30.Location = new System.Drawing.Point(702, 301);
@@ -549,7 +557,7 @@ namespace amoba
             // label31
             // 
             this.label31.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label31.ForeColor = System.Drawing.Color.White;
             this.label31.Location = new System.Drawing.Point(635, 301);
@@ -562,7 +570,7 @@ namespace amoba
             // label32
             // 
             this.label32.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label32.ForeColor = System.Drawing.Color.White;
             this.label32.Location = new System.Drawing.Point(568, 301);
@@ -575,7 +583,7 @@ namespace amoba
             // label33
             // 
             this.label33.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label33.ForeColor = System.Drawing.Color.White;
             this.label33.Location = new System.Drawing.Point(501, 301);
@@ -588,7 +596,7 @@ namespace amoba
             // label34
             // 
             this.label34.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label34.ForeColor = System.Drawing.Color.White;
             this.label34.Location = new System.Drawing.Point(434, 301);
@@ -601,7 +609,7 @@ namespace amoba
             // label35
             // 
             this.label35.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label35.ForeColor = System.Drawing.Color.White;
             this.label35.Location = new System.Drawing.Point(367, 301);
@@ -614,7 +622,7 @@ namespace amoba
             // label36
             // 
             this.label36.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label36.ForeColor = System.Drawing.Color.White;
             this.label36.Location = new System.Drawing.Point(434, 502);
@@ -627,7 +635,7 @@ namespace amoba
             // label37
             // 
             this.label37.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label37.ForeColor = System.Drawing.Color.White;
             this.label37.Location = new System.Drawing.Point(367, 502);
@@ -640,7 +648,7 @@ namespace amoba
             // label38
             // 
             this.label38.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label38.ForeColor = System.Drawing.Color.White;
             this.label38.Location = new System.Drawing.Point(568, 502);
@@ -653,7 +661,7 @@ namespace amoba
             // label39
             // 
             this.label39.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label39.ForeColor = System.Drawing.Color.White;
             this.label39.Location = new System.Drawing.Point(501, 502);
@@ -666,7 +674,7 @@ namespace amoba
             // label40
             // 
             this.label40.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label40.ForeColor = System.Drawing.Color.White;
             this.label40.Location = new System.Drawing.Point(702, 502);
@@ -679,7 +687,7 @@ namespace amoba
             // label41
             // 
             this.label41.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label41.ForeColor = System.Drawing.Color.White;
             this.label41.Location = new System.Drawing.Point(635, 502);
@@ -692,7 +700,7 @@ namespace amoba
             // label42
             // 
             this.label42.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label42.ForeColor = System.Drawing.Color.White;
             this.label42.Location = new System.Drawing.Point(702, 435);
@@ -705,7 +713,7 @@ namespace amoba
             // label43
             // 
             this.label43.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label43.ForeColor = System.Drawing.Color.White;
             this.label43.Location = new System.Drawing.Point(635, 435);
@@ -718,7 +726,7 @@ namespace amoba
             // label44
             // 
             this.label44.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label44.ForeColor = System.Drawing.Color.White;
             this.label44.Location = new System.Drawing.Point(568, 435);
@@ -731,7 +739,7 @@ namespace amoba
             // label45
             // 
             this.label45.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label45.ForeColor = System.Drawing.Color.White;
             this.label45.Location = new System.Drawing.Point(501, 435);
@@ -744,7 +752,7 @@ namespace amoba
             // label46
             // 
             this.label46.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label46.ForeColor = System.Drawing.Color.White;
             this.label46.Location = new System.Drawing.Point(434, 435);
@@ -757,7 +765,7 @@ namespace amoba
             // label47
             // 
             this.label47.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label47.ForeColor = System.Drawing.Color.White;
             this.label47.Location = new System.Drawing.Point(367, 435);
@@ -770,7 +778,7 @@ namespace amoba
             // label48
             // 
             this.label48.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label48.ForeColor = System.Drawing.Color.White;
             this.label48.Location = new System.Drawing.Point(434, 636);
@@ -783,7 +791,7 @@ namespace amoba
             // label49
             // 
             this.label49.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label49.ForeColor = System.Drawing.Color.White;
             this.label49.Location = new System.Drawing.Point(367, 636);
@@ -796,7 +804,7 @@ namespace amoba
             // label50
             // 
             this.label50.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label50.ForeColor = System.Drawing.Color.White;
             this.label50.Location = new System.Drawing.Point(568, 636);
@@ -809,7 +817,7 @@ namespace amoba
             // label51
             // 
             this.label51.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label51.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label51.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label51.ForeColor = System.Drawing.Color.White;
             this.label51.Location = new System.Drawing.Point(501, 636);
@@ -822,7 +830,7 @@ namespace amoba
             // label52
             // 
             this.label52.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label52.ForeColor = System.Drawing.Color.White;
             this.label52.Location = new System.Drawing.Point(702, 636);
@@ -835,7 +843,7 @@ namespace amoba
             // label53
             // 
             this.label53.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label53.ForeColor = System.Drawing.Color.White;
             this.label53.Location = new System.Drawing.Point(635, 636);
@@ -848,7 +856,7 @@ namespace amoba
             // label54
             // 
             this.label54.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label54.ForeColor = System.Drawing.Color.White;
             this.label54.Location = new System.Drawing.Point(702, 569);
@@ -861,7 +869,7 @@ namespace amoba
             // label55
             // 
             this.label55.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label55.ForeColor = System.Drawing.Color.White;
             this.label55.Location = new System.Drawing.Point(635, 569);
@@ -874,7 +882,7 @@ namespace amoba
             // label56
             // 
             this.label56.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label56.ForeColor = System.Drawing.Color.White;
             this.label56.Location = new System.Drawing.Point(568, 569);
@@ -887,7 +895,7 @@ namespace amoba
             // label57
             // 
             this.label57.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label57.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label57.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label57.ForeColor = System.Drawing.Color.White;
             this.label57.Location = new System.Drawing.Point(501, 569);
@@ -900,7 +908,7 @@ namespace amoba
             // label58
             // 
             this.label58.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label58.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label58.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label58.ForeColor = System.Drawing.Color.White;
             this.label58.Location = new System.Drawing.Point(434, 569);
@@ -913,7 +921,7 @@ namespace amoba
             // label59
             // 
             this.label59.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label59.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label59.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label59.ForeColor = System.Drawing.Color.White;
             this.label59.Location = new System.Drawing.Point(367, 569);
@@ -926,7 +934,7 @@ namespace amoba
             // label60
             // 
             this.label60.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label60.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label60.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label60.ForeColor = System.Drawing.Color.White;
             this.label60.Location = new System.Drawing.Point(836, 636);
@@ -939,7 +947,7 @@ namespace amoba
             // label61
             // 
             this.label61.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label61.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label61.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label61.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label61.ForeColor = System.Drawing.Color.White;
             this.label61.Location = new System.Drawing.Point(769, 636);
@@ -952,7 +960,7 @@ namespace amoba
             // label62
             // 
             this.label62.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label62.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label62.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label62.ForeColor = System.Drawing.Color.White;
             this.label62.Location = new System.Drawing.Point(970, 636);
@@ -965,7 +973,7 @@ namespace amoba
             // label63
             // 
             this.label63.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label63.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label63.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label63.ForeColor = System.Drawing.Color.White;
             this.label63.Location = new System.Drawing.Point(903, 636);
@@ -978,7 +986,7 @@ namespace amoba
             // label64
             // 
             this.label64.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label64.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label64.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label64.ForeColor = System.Drawing.Color.White;
             this.label64.Location = new System.Drawing.Point(970, 569);
@@ -991,7 +999,7 @@ namespace amoba
             // label65
             // 
             this.label65.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label65.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label65.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label65.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label65.ForeColor = System.Drawing.Color.White;
             this.label65.Location = new System.Drawing.Point(903, 569);
@@ -1004,7 +1012,7 @@ namespace amoba
             // label66
             // 
             this.label66.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label66.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label66.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label66.ForeColor = System.Drawing.Color.White;
             this.label66.Location = new System.Drawing.Point(836, 569);
@@ -1017,7 +1025,7 @@ namespace amoba
             // label67
             // 
             this.label67.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label67.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label67.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label67.ForeColor = System.Drawing.Color.White;
             this.label67.Location = new System.Drawing.Point(769, 569);
@@ -1030,7 +1038,7 @@ namespace amoba
             // label68
             // 
             this.label68.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label68.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label68.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label68.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label68.ForeColor = System.Drawing.Color.White;
             this.label68.Location = new System.Drawing.Point(836, 502);
@@ -1043,7 +1051,7 @@ namespace amoba
             // label69
             // 
             this.label69.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label69.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label69.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label69.ForeColor = System.Drawing.Color.White;
             this.label69.Location = new System.Drawing.Point(769, 502);
@@ -1056,7 +1064,7 @@ namespace amoba
             // label70
             // 
             this.label70.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label70.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label70.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label70.ForeColor = System.Drawing.Color.White;
             this.label70.Location = new System.Drawing.Point(970, 502);
@@ -1069,7 +1077,7 @@ namespace amoba
             // label71
             // 
             this.label71.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label71.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label71.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label71.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label71.ForeColor = System.Drawing.Color.White;
             this.label71.Location = new System.Drawing.Point(903, 502);
@@ -1082,7 +1090,7 @@ namespace amoba
             // label72
             // 
             this.label72.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label72.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label72.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label72.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label72.ForeColor = System.Drawing.Color.White;
             this.label72.Location = new System.Drawing.Point(970, 435);
@@ -1095,7 +1103,7 @@ namespace amoba
             // label73
             // 
             this.label73.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label73.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label73.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label73.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label73.ForeColor = System.Drawing.Color.White;
             this.label73.Location = new System.Drawing.Point(903, 435);
@@ -1108,7 +1116,7 @@ namespace amoba
             // label74
             // 
             this.label74.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label74.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label74.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label74.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label74.ForeColor = System.Drawing.Color.White;
             this.label74.Location = new System.Drawing.Point(836, 435);
@@ -1121,7 +1129,7 @@ namespace amoba
             // label75
             // 
             this.label75.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label75.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label75.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label75.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label75.ForeColor = System.Drawing.Color.White;
             this.label75.Location = new System.Drawing.Point(769, 435);
@@ -1134,7 +1142,7 @@ namespace amoba
             // label76
             // 
             this.label76.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label76.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label76.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label76.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label76.ForeColor = System.Drawing.Color.White;
             this.label76.Location = new System.Drawing.Point(836, 368);
@@ -1147,7 +1155,7 @@ namespace amoba
             // label77
             // 
             this.label77.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label77.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label77.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label77.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label77.ForeColor = System.Drawing.Color.White;
             this.label77.Location = new System.Drawing.Point(769, 368);
@@ -1160,7 +1168,7 @@ namespace amoba
             // label78
             // 
             this.label78.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label78.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label78.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label78.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label78.ForeColor = System.Drawing.Color.White;
             this.label78.Location = new System.Drawing.Point(970, 368);
@@ -1173,7 +1181,7 @@ namespace amoba
             // label79
             // 
             this.label79.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label79.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label79.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label79.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label79.ForeColor = System.Drawing.Color.White;
             this.label79.Location = new System.Drawing.Point(903, 368);
@@ -1186,7 +1194,7 @@ namespace amoba
             // label80
             // 
             this.label80.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label80.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label80.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label80.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label80.ForeColor = System.Drawing.Color.White;
             this.label80.Location = new System.Drawing.Point(970, 301);
@@ -1199,7 +1207,7 @@ namespace amoba
             // label81
             // 
             this.label81.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label81.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label81.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label81.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label81.ForeColor = System.Drawing.Color.White;
             this.label81.Location = new System.Drawing.Point(903, 301);
@@ -1212,7 +1220,7 @@ namespace amoba
             // label82
             // 
             this.label82.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label82.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label82.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label82.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label82.ForeColor = System.Drawing.Color.White;
             this.label82.Location = new System.Drawing.Point(836, 301);
@@ -1225,7 +1233,7 @@ namespace amoba
             // label83
             // 
             this.label83.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label83.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label83.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label83.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label83.ForeColor = System.Drawing.Color.White;
             this.label83.Location = new System.Drawing.Point(769, 301);
@@ -1238,7 +1246,7 @@ namespace amoba
             // label84
             // 
             this.label84.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label84.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label84.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label84.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label84.ForeColor = System.Drawing.Color.White;
             this.label84.Location = new System.Drawing.Point(836, 234);
@@ -1251,7 +1259,7 @@ namespace amoba
             // label85
             // 
             this.label85.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label85.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label85.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label85.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label85.ForeColor = System.Drawing.Color.White;
             this.label85.Location = new System.Drawing.Point(769, 234);
@@ -1264,7 +1272,7 @@ namespace amoba
             // label86
             // 
             this.label86.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label86.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label86.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label86.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label86.ForeColor = System.Drawing.Color.White;
             this.label86.Location = new System.Drawing.Point(970, 234);
@@ -1277,7 +1285,7 @@ namespace amoba
             // label87
             // 
             this.label87.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label87.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label87.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label87.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label87.ForeColor = System.Drawing.Color.White;
             this.label87.Location = new System.Drawing.Point(903, 234);
@@ -1290,7 +1298,7 @@ namespace amoba
             // label88
             // 
             this.label88.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label88.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label88.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label88.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label88.ForeColor = System.Drawing.Color.White;
             this.label88.Location = new System.Drawing.Point(970, 167);
@@ -1303,7 +1311,7 @@ namespace amoba
             // label89
             // 
             this.label89.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label89.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label89.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label89.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label89.ForeColor = System.Drawing.Color.White;
             this.label89.Location = new System.Drawing.Point(903, 167);
@@ -1316,7 +1324,7 @@ namespace amoba
             // label90
             // 
             this.label90.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label90.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label90.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label90.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label90.ForeColor = System.Drawing.Color.White;
             this.label90.Location = new System.Drawing.Point(836, 167);
@@ -1329,7 +1337,7 @@ namespace amoba
             // label91
             // 
             this.label91.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label91.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label91.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label91.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label91.ForeColor = System.Drawing.Color.White;
             this.label91.Location = new System.Drawing.Point(769, 167);
@@ -1342,7 +1350,7 @@ namespace amoba
             // label92
             // 
             this.label92.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label92.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label92.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label92.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label92.ForeColor = System.Drawing.Color.White;
             this.label92.Location = new System.Drawing.Point(836, 100);
@@ -1355,7 +1363,7 @@ namespace amoba
             // label93
             // 
             this.label93.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label93.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label93.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label93.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label93.ForeColor = System.Drawing.Color.White;
             this.label93.Location = new System.Drawing.Point(769, 100);
@@ -1368,7 +1376,7 @@ namespace amoba
             // label94
             // 
             this.label94.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label94.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label94.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label94.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label94.ForeColor = System.Drawing.Color.White;
             this.label94.Location = new System.Drawing.Point(970, 100);
@@ -1381,7 +1389,7 @@ namespace amoba
             // label95
             // 
             this.label95.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label95.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label95.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label95.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label95.ForeColor = System.Drawing.Color.White;
             this.label95.Location = new System.Drawing.Point(903, 100);
@@ -1394,7 +1402,7 @@ namespace amoba
             // label96
             // 
             this.label96.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label96.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label96.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label96.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label96.ForeColor = System.Drawing.Color.White;
             this.label96.Location = new System.Drawing.Point(970, 33);
@@ -1407,7 +1415,7 @@ namespace amoba
             // label97
             // 
             this.label97.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label97.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label97.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label97.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label97.ForeColor = System.Drawing.Color.White;
             this.label97.Location = new System.Drawing.Point(903, 33);
@@ -1420,7 +1428,7 @@ namespace amoba
             // label98
             // 
             this.label98.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label98.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label98.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label98.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label98.ForeColor = System.Drawing.Color.White;
             this.label98.Location = new System.Drawing.Point(836, 33);
@@ -1433,7 +1441,7 @@ namespace amoba
             // label99
             // 
             this.label99.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label99.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(73)))), ((int)(((byte)(106)))));
+            this.label99.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.label99.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label99.ForeColor = System.Drawing.Color.White;
             this.label99.Location = new System.Drawing.Point(769, 33);
@@ -1442,6 +1450,61 @@ namespace amoba
             this.label99.Size = new System.Drawing.Size(60, 60);
             this.label99.TabIndex = 98;
             this.label99.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
+            this.guna2Panel1.Controls.Add(this.restertbtn);
+            this.guna2Panel1.Controls.Add(this.menubtn);
+            this.guna2Panel1.Controls.Add(this.kilepesbtn);
+            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
+            this.guna2Panel1.Size = new System.Drawing.Size(233, 823);
+            this.guna2Panel1.TabIndex = 0;
+            this.guna2Panel1.Visible = false;
+            // 
+            // kilepesbtn
+            // 
+            this.kilepesbtn.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.kilepesbtn.FlatAppearance.BorderSize = 0;
+            this.kilepesbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.kilepesbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.kilepesbtn.Location = new System.Drawing.Point(0, 769);
+            this.kilepesbtn.Name = "kilepesbtn";
+            this.kilepesbtn.Size = new System.Drawing.Size(233, 54);
+            this.kilepesbtn.TabIndex = 1;
+            this.kilepesbtn.Text = "Kilépés";
+            this.kilepesbtn.UseVisualStyleBackColor = true;
+            this.kilepesbtn.Click += new System.EventHandler(this.kilepesbtn_Click);
+            // 
+            // menubtn
+            // 
+            this.menubtn.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.menubtn.FlatAppearance.BorderSize = 0;
+            this.menubtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.menubtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.menubtn.Location = new System.Drawing.Point(0, 715);
+            this.menubtn.Name = "menubtn";
+            this.menubtn.Size = new System.Drawing.Size(233, 54);
+            this.menubtn.TabIndex = 1;
+            this.menubtn.Text = "Vissza a menübe";
+            this.menubtn.UseVisualStyleBackColor = true;
+            this.menubtn.Click += new System.EventHandler(this.menubtn_Click);
+            // 
+            // restertbtn
+            // 
+            this.restertbtn.FlatAppearance.BorderSize = 0;
+            this.restertbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.restertbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.restertbtn.Location = new System.Drawing.Point(0, 152);
+            this.restertbtn.Name = "restertbtn";
+            this.restertbtn.Size = new System.Drawing.Size(233, 54);
+            this.restertbtn.TabIndex = 2;
+            this.restertbtn.Text = "Új játék";
+            this.restertbtn.UseVisualStyleBackColor = true;
+            this.restertbtn.Click += new System.EventHandler(this.restertbtn_Click);
             // 
             // JatekTer
             // 
@@ -1551,6 +1614,9 @@ namespace amoba
             this.Controls.Add(this.guna2GradientPanel102);
             this.Name = "JatekTer";
             this.Text = "JatekTer";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.JatekTer_KeyDown);
+            this.guna2GradientPanel102.ResumeLayout(false);
+            this.guna2Panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1657,5 +1723,9 @@ namespace amoba
         private System.Windows.Forms.Label label97;
         private System.Windows.Forms.Label label98;
         private System.Windows.Forms.Label label99;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private System.Windows.Forms.Button kilepesbtn;
+        private System.Windows.Forms.Button restertbtn;
+        private System.Windows.Forms.Button menubtn;
     }
 }
