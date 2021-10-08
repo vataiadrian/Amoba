@@ -12,6 +12,7 @@ namespace amoba
 {
     public partial class JatekTer : Form
     {
+        static Label[,] labelok = new Label[10, 10];
         public JatekTer()
         {
             InitializeComponent();
@@ -36,7 +37,7 @@ namespace amoba
                 {
                     guna2Panel1.Visible = true;
                     esc = true;
-                    lbl1.Visible = false; label1.Visible = false; label2.Visible = false; label3.Visible = false; label4.Visible = false; label5.Visible = false; label6.Visible = false; label7.Visible = false; label8.Visible = false; label9.Visible = false;
+                   /* lbl1.Visible = false; label1.Visible = false; label2.Visible = false; label3.Visible = false; label4.Visible = false; label5.Visible = false; label6.Visible = false; label7.Visible = false; label8.Visible = false; label9.Visible = false;
                     label10.Visible = false; label11.Visible = false; label12.Visible = false; label13.Visible = false; label14.Visible = false; label15.Visible = false; label16.Visible = false; label17.Visible = false; label18.Visible = false; label19.Visible = false;
                     label20.Visible = false; label21.Visible = false; label22.Visible = false; label23.Visible = false; label24.Visible = false; label25.Visible = false; label26.Visible = false; label27.Visible = false; label28.Visible = false; label29.Visible = false;
                     label30.Visible = false; label31.Visible = false; label32.Visible = false; label33.Visible = false; label34.Visible = false; label35.Visible = false; label36.Visible = false; label37.Visible = false; label38.Visible = false; label39.Visible = false;
@@ -46,13 +47,13 @@ namespace amoba
                     label70.Visible = false; label71.Visible = false; label72.Visible = false; label73.Visible = false; label74.Visible = false; label75.Visible = false; label76.Visible = false; label77.Visible = false; label78.Visible = false; label79.Visible = false;
                     label80.Visible = false; label81.Visible = false; label82.Visible = false; label83.Visible = false; label84.Visible = false; label85.Visible = false; label86.Visible = false; label87.Visible = false; label88.Visible = false; label89.Visible = false;
                     label90.Visible = false; label91.Visible = false; label92.Visible = false; label93.Visible = false; label94.Visible = false; label95.Visible = false; label96.Visible = false; label97.Visible = false; label98.Visible = false; label99.Visible = false;
-                    panelO.Visible = false; panelX.Visible = false; label100.Visible = false; label101.Visible = false;
+                    panelO.Visible = false; panelX.Visible = false; label100.Visible = false; label101.Visible = false;*/
                 }
                 else
                 {
                     guna2Panel1.Visible = false;
                     esc = false;
-                    lbl1.Visible = true; label1.Visible = true; label2.Visible = true; label3.Visible = true; label4.Visible = true; label5.Visible = true; label6.Visible = true; label7.Visible = true; label8.Visible = true; label9.Visible = true;
+                 /*   lbl1.Visible = true; label1.Visible = true; label2.Visible = true; label3.Visible = true; label4.Visible = true; label5.Visible = true; label6.Visible = true; label7.Visible = true; label8.Visible = true; label9.Visible = true;
                     label10.Visible = true; label11.Visible = true; label12.Visible = true; label13.Visible = true; label14.Visible = true; label15.Visible = true; label16.Visible = true; label17.Visible = true; label18.Visible = true; label19.Visible = true;
                     label20.Visible = true; label21.Visible = true; label22.Visible = true; label23.Visible = true; label24.Visible = true; label25.Visible = true; label26.Visible = true; label27.Visible = true; label28.Visible = true; label29.Visible = true;
                     label30.Visible = true; label31.Visible = true; label32.Visible = true; label33.Visible = true; label34.Visible = true; label35.Visible = true; label36.Visible = true; label37.Visible = true; label38.Visible = true; label39.Visible = true;
@@ -62,7 +63,7 @@ namespace amoba
                     label70.Visible = true; label71.Visible = true; label72.Visible = true; label73.Visible = true; label74.Visible = true; label75.Visible = true; label76.Visible = true; label77.Visible = true; label78.Visible = true; label79.Visible = true;
                     label80.Visible = true; label81.Visible = true; label82.Visible = true; label83.Visible = true; label84.Visible = true; label85.Visible = true; label86.Visible = true; label87.Visible = true; label88.Visible = true; label89.Visible = true;
                     label90.Visible = true; label91.Visible = true; label92.Visible = true; label93.Visible = true; label94.Visible = true; label95.Visible = true; label96.Visible = true; label97.Visible = true; label98.Visible = true; label99.Visible = true;
-                    panelO.Visible = true; panelX.Visible = true; label100.Visible = true; label101.Visible = true;
+                    panelO.Visible = true; panelX.Visible = true; label100.Visible = true; label101.Visible = true;*/
                 }
 
             }
@@ -87,6 +88,39 @@ namespace amoba
 
         private void JatekTer_Load(object sender, EventArgs e)
         {
+            int labelindexelo = 0;
+            int yrajz = 0;
+            int xrajz = 0;
+            for (int i = 1; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    labelok[i, j] = new Label(); { Name = "label" + i+" "+j,  Size = new Size(60, 60), Text = "label " + i +" "+j, Location=new System.Drawing.Point() };
+                    labelok[i, j].Size = new Size(60, 60);
+                    labelok[i, j].BackColor = Color.FromArgb(127,127,127);
+                    labelok[i, j].Name = "label" + labelindexelo;
+
+                    labelindexelo++;
+                    switch (i)
+                    {
+                        case 0:
+                            xrajz = 33;
+                            break;
+                        case 1:
+                            xrajz = 100;
+                            break;
+                        case 1:
+                            xrajz = 100;
+                            break;
+                        case 1:
+                            xrajz = 100;
+                            break;
+
+                    }
+                }
+                
+            }
+
             Random r = new Random();
             if (r.Next(0, 100) >= 50)
             {
