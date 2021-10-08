@@ -38,9 +38,12 @@ namespace amoba
             this.kilepesbtn = new System.Windows.Forms.Button();
             this.panelO = new Guna.UI2.WinForms.Guna2Panel();
             this.label100 = new System.Windows.Forms.Label();
-            this.lbl1 = new System.Windows.Forms.Label();
+            this.labelO = new System.Windows.Forms.Label();
+            this.labelX = new System.Windows.Forms.Label();
             this.guna2GradientPanel102.SuspendLayout();
+            this.panelX.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
+            this.panelO.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2GradientPanel102
@@ -77,6 +80,7 @@ namespace amoba
             // 
             this.panelX.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panelX.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(181)))), ((int)(((byte)(15)))));
+            this.panelX.Controls.Add(this.labelX);
             this.panelX.Location = new System.Drawing.Point(1168, 224);
             this.panelX.Name = "panelX";
             this.panelX.ShadowDecoration.Parent = this.panelX;
@@ -142,6 +146,7 @@ namespace amoba
             // 
             this.panelO.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panelO.BackColor = System.Drawing.Color.Black;
+            this.panelO.Controls.Add(this.labelO);
             this.panelO.Location = new System.Drawing.Point(30, 224);
             this.panelO.Name = "panelO";
             this.panelO.ShadowDecoration.Parent = this.panelO;
@@ -161,25 +166,31 @@ namespace amoba
             this.label100.TabIndex = 3;
             this.label100.Text = "O";
             // 
-            // lbl1
+            // labelO
             // 
-            this.lbl1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lbl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            this.lbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.lbl1.ForeColor = System.Drawing.Color.White;
-            this.lbl1.Location = new System.Drawing.Point(367, 33);
-            this.lbl1.Margin = new System.Windows.Forms.Padding(7, 7, 0, 0);
-            this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(60, 60);
-            this.lbl1.TabIndex = 38;
-            this.lbl1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelO.AutoSize = true;
+            this.labelO.ForeColor = System.Drawing.Color.White;
+            this.labelO.Location = new System.Drawing.Point(13, 19);
+            this.labelO.Name = "labelO";
+            this.labelO.Size = new System.Drawing.Size(35, 13);
+            this.labelO.TabIndex = 5;
+            this.labelO.Text = "label1";
+            // 
+            // labelX
+            // 
+            this.labelX.AutoSize = true;
+            this.labelX.ForeColor = System.Drawing.Color.White;
+            this.labelX.Location = new System.Drawing.Point(13, 19);
+            this.labelX.Name = "labelX";
+            this.labelX.Size = new System.Drawing.Size(35, 13);
+            this.labelX.TabIndex = 6;
+            this.labelX.Text = "label1";
             // 
             // JatekTer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1397, 823);
-            this.Controls.Add(this.lbl1);
             this.Controls.Add(this.guna2GradientPanel102);
             this.Name = "JatekTer";
             this.Text = "JatekTer";
@@ -187,14 +198,17 @@ namespace amoba
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.JatekTer_KeyDown);
             this.guna2GradientPanel102.ResumeLayout(false);
             this.guna2GradientPanel102.PerformLayout();
+            this.panelX.ResumeLayout(false);
+            this.panelX.PerformLayout();
             this.guna2Panel1.ResumeLayout(false);
+            this.panelO.ResumeLayout(false);
+            this.panelO.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel102;
-        private System.Windows.Forms.Label lbl1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private System.Windows.Forms.Button restertbtn;
         private System.Windows.Forms.Button menubtn;
@@ -203,5 +217,7 @@ namespace amoba
         private Guna.UI2.WinForms.Guna2Panel panelO;
         private Guna.UI2.WinForms.Guna2Panel panelX;
         private System.Windows.Forms.Label label101;
+        private System.Windows.Forms.Label labelX;
+        private System.Windows.Forms.Label labelO;
     }
 }
