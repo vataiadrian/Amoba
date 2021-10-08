@@ -16,6 +16,7 @@ namespace amoba
         public JatekTer()
         {
             InitializeComponent();
+            generalas();
 
             GoFullscreen(true);
         }
@@ -88,16 +89,32 @@ namespace amoba
 
         private void JatekTer_Load(object sender, EventArgs e)
         {
+            
+            
+
+            Random r = new Random();
+            if (r.Next(0, 100) >= 50)
+            {
+                
+            }
+            else
+            {
+
+            }
+        }
+
+        private void generalas()
+        {
             int labelindexelo = 0;
             int yrajz = 0;
             int xrajz = 0;
-            for (int i = 1; i < 10; i++)
+            for (int i = 0; i < 10; i++)
             {
                 for (int j = 0; j < 10; j++)
                 {
-                    labelok[i, j] = new Label(); { Name = "label" + i+" "+j,  Size = new Size(60, 60), Text = "label " + i +" "+j, Location=new System.Drawing.Point() };
+                    labelok[i, j] = new Label();
                     labelok[i, j].Size = new Size(60, 60);
-                    labelok[i, j].BackColor = Color.FromArgb(127,127,127);
+                    labelok[i, j].BackColor = Color.FromArgb(127, 127, 127);
                     labelok[i, j].Name = "label" + labelindexelo;
 
                     labelindexelo++;
@@ -109,25 +126,70 @@ namespace amoba
                         case 1:
                             xrajz = 100;
                             break;
-                        case 1:
-                            xrajz = 100;
+                        case 2:
+                            xrajz = 167;
                             break;
-                        case 1:
-                            xrajz = 100;
+                        case 3:
+                            xrajz = 234;
                             break;
-
+                        case 4:
+                            xrajz = 301;
+                            break;
+                        case 5:
+                            xrajz = 368;
+                            break;
+                        case 6:
+                            xrajz = 435;
+                            break;
+                        case 7:
+                            xrajz = 502;
+                            break;
+                        case 8:
+                            xrajz = 569;
+                            break;
+                        case 9:
+                            xrajz = 636;
+                            break;
                     }
+                    switch (j)
+                    {
+                        case 0:
+                            yrajz = 367;
+                            break;
+                        case 1:
+                            yrajz = 434;
+                            break;
+                        case 2:
+                            yrajz = 501;
+                            break;
+                        case 3:
+                            yrajz = 568;
+                            break;
+                        case 4:
+                            yrajz = 635;
+                            break;
+                        case 5:
+                            yrajz = 702;
+                            break;
+                        case 6:
+                            yrajz = 769;
+                            break;
+                        case 7:
+                            yrajz = 836;
+                            break;
+                        case 8:
+                            yrajz = 903;
+                            break;
+                        case 9:
+                            yrajz = 970;
+                            break;
+                    }
+                   // MessageBox.Show("" + i + " " + j, "asd", MessageBoxButtons.OK);
+                    labelok[i, j].Anchor = AnchorStyles.None;
+                    labelok[i, j].Location = new System.Drawing.Point(yrajz, xrajz);
+                    Controls.Add(labelok[i, j]);
+                    labelok[i, j].BringToFront();
                 }
-                
-            }
-
-            Random r = new Random();
-            if (r.Next(0, 100) >= 50)
-            {
-                
-            }
-            else
-            {
 
             }
         }
