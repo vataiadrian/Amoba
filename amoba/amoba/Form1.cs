@@ -43,6 +43,12 @@ namespace amoba
             {
                 MessageBox.Show("Kérem adja meg a nevét!", "Hiányzó név", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
+
+
+
+
+            hello 
             
         }
     }
