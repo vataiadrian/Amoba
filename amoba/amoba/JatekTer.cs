@@ -35,7 +35,7 @@ namespace amoba
             this.KeyPreview = true;
             this.KeyPress += (ss, ee) =>
             {
-                if (ee.KeyChar == 27) //= escape
+                if (ee.KeyChar == 27)
                 {
                     if (!esc)
                     {
@@ -101,9 +101,6 @@ namespace amoba
         //Játék
         private void JatekTer_Load(object sender, EventArgs e)
         {
-            
-            
-
             Random r = new Random();
             if (r.Next(0, 6) > 3)
             {
@@ -212,7 +209,6 @@ namespace amoba
             Label kattintott = sender as Label;
             int y = Convert.ToInt32(kattintott.Name.Split(';')[0]);
             int x = Convert.ToInt32(kattintott.Name.Split(';')[1]);
-
         }
     }
 }
