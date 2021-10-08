@@ -30,9 +30,21 @@ namespace amoba
             this.Bounds = Screen.PrimaryScreen.Bounds;
         }
 
-        private void JatekTer_KeyDown(object sender, KeyEventArgs e)
+        private void kilepesbtn_Click(object sender, EventArgs e)
         {
-            if (e.KeyCode == Keys.Escape)
+            Application.Exit();
+        }
+
+        private void menubtn_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            this.Hide();
+            form1.ShowDialog(this);
+        }
+
+        private void JatekTer_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Escape)
             {
                 if (!esc)
                 {
@@ -43,7 +55,7 @@ namespace amoba
                     {
                         for (int j = 0; j < 10; j++)
                         {
-                            labelok[i,j].Visible = false;
+                            labelok[i, j].Visible = false;
 
                         }
 
@@ -65,20 +77,7 @@ namespace amoba
                     }
 
                 }
-
             }
-        }
-
-        private void kilepesbtn_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void menubtn_Click(object sender, EventArgs e)
-        {
-            Form1 form1 = new Form1();
-            this.Hide();
-            form1.ShowDialog(this);
         }
 
         private void restertbtn_Click(object sender, EventArgs e)
@@ -86,6 +85,8 @@ namespace amoba
 
         }
 
+
+        //Játék
         private void JatekTer_Load(object sender, EventArgs e)
         {
             
