@@ -92,12 +92,16 @@ namespace amoba
             
 
             Random r = new Random();
-            if (r.Next(0, 100) >= 50)
+            if (r.Next(0, 6) > 3)
             {
+                labelO.Text = global.jatekosnev1;
+                labelX.Text = global.jatekosnev2;
                 
             }
             else
             {
+                labelO.Text = global.jatekosnev2;
+                labelX.Text = global.jatekosnev1;
 
             }
         }

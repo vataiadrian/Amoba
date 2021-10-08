@@ -19,8 +19,7 @@ namespace amoba
         public Form1()
         {
             InitializeComponent();
-            jatekosnev1tb.Text = "sadfsad";
-            jatekosnev2tb.Text = "asdfasd";
+            
         }        
      
         public void button1_Click(object sender, EventArgs e)
