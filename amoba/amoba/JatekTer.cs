@@ -129,7 +129,7 @@ namespace amoba
                     labelok[i, j] = new Label();
                     labelok[i, j].Size = new Size(60, 60);
                     labelok[i, j].BackColor = Color.FromArgb(127, 127, 127);
-                    labelok[i, j].Name = "label" + labelindexelo;
+                    labelok[i, j].Name = i+";"+j;
 
                     labelindexelo++;
                     switch (i)
@@ -200,10 +200,19 @@ namespace amoba
                     }
                     labelok[i, j].Anchor = AnchorStyles.None;
                     labelok[i, j].Location = new System.Drawing.Point(yrajz, xrajz);
+                    labelok[i, j].Click += new System.EventHandler(this.katt);
                     Controls.Add(labelok[i, j]);
                     labelok[i, j].BringToFront();
                 }
             }
+        }
+
+        private void katt(object sender, EventArgs e)
+        {
+            Label kattintott = sender as Label;
+            int y = Convert.ToInt32(kattintott.Name.Split(';')[0]);
+            int x = Convert.ToInt32(kattintott.Name.Split(';')[1]);
+
         }
     }
 }
