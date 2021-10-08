@@ -17,7 +17,7 @@ namespace amoba
         {
             InitializeComponent();
             generalas();
-
+            MenuBehozas();
             GoFullscreen(true);
         }
 
@@ -28,6 +28,51 @@ namespace amoba
             this.WindowState = FormWindowState.Maximized;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Bounds = Screen.PrimaryScreen.Bounds;
+        }
+
+        private void MenuBehozas()
+        {
+            this.KeyPreview = true;
+            this.KeyPress += (ss, ee) =>
+            {
+                if (ee.KeyChar == 27) //= escape
+                {
+                    if (!esc)
+                    {
+                        guna2Panel1.Visible = true;
+                        panelO.Visible = false;
+                        panelX.Visible = false;
+                        label100.Visible = false;
+                        label101.Visible = false;
+                        for (int i = 0; i < 10; i++)
+                        {
+                            for (int j = 0; j < 10; j++)
+                            {
+                                labelok[i, j].Visible = false;
+                            }
+
+                        }
+                        esc = true;
+                    }
+                    else
+                    {
+                        guna2Panel1.Visible = false;
+                        panelO.Visible = true;
+                        panelX.Visible = true;
+                        label100.Visible = true;
+                        label101.Visible = true;
+                        for (int i = 0; i < 10; i++)
+                        {
+                            for (int j = 0; j < 10; j++)
+                            {
+                                labelok[i, j].Visible = true;
+                            }
+
+                        }
+                        esc = false;
+                    }
+                }
+            };
         }
 
         private void kilepesbtn_Click(object sender, EventArgs e)
@@ -42,45 +87,12 @@ namespace amoba
             form1.ShowDialog(this);
         }
 
-        private void JatekTer_KeyPress(object sender, KeyPressEventArgs e)
+        private void restertbtn_Click(object sender, EventArgs e)
         {
-            if (e.KeyChar == (char)Keys.Escape)
-            {
-                if (!esc)
-                {
-                    guna2Panel1.Visible = true;
-                    esc = true;
-                    panelO.Visible = false; panelX.Visible = false; label100.Visible = false; label101.Visible = false;
-                    for (int i = 0; i < 10; i++)
-                    {
-                        for (int j = 0; j < 10; j++)
-                        {
-                            labelok[i, j].Visible = false;
 
-                        }
-
-                    }
-                }
-                else
-                {
-                    guna2Panel1.Visible = false;
-                    esc = false;
-                    panelO.Visible = true; panelX.Visible = true; label100.Visible = true; label101.Visible = true;
-                    for (int i = 0; i < 10; i++)
-                    {
-                        for (int j = 0; j < 10; j++)
-                        {
-                            labelok[i, j].Visible = true;
-
-                        }
-
-                    }
-
-                }
-            }
         }
 
-        private void restertbtn_Click(object sender, EventArgs e)
+        private void jatekfolytbtn_Click(object sender, EventArgs e)
         {
 
         }
@@ -97,13 +109,11 @@ namespace amoba
             {
                 labelO.Text = global.jatekosnev1;
                 labelX.Text = global.jatekosnev2;
-                
             }
             else
             {
                 labelO.Text = global.jatekosnev2;
                 labelX.Text = global.jatekosnev1;
-
             }
         }
 
@@ -188,13 +198,11 @@ namespace amoba
                             yrajz = 970;
                             break;
                     }
-                   // MessageBox.Show("" + i + " " + j, "asd", MessageBoxButtons.OK);
                     labelok[i, j].Anchor = AnchorStyles.None;
                     labelok[i, j].Location = new System.Drawing.Point(yrajz, xrajz);
                     Controls.Add(labelok[i, j]);
                     labelok[i, j].BringToFront();
                 }
-
             }
         }
     }

@@ -94,6 +94,7 @@ namespace amoba
             this.jatekfolytbtn.TabIndex = 5;
             this.jatekfolytbtn.Text = "Játék folytatása";
             this.jatekfolytbtn.UseVisualStyleBackColor = false;
+            this.jatekfolytbtn.Click += new System.EventHandler(this.jatekfolytbtn_Click);
             // 
             // restertbtn
             // 
@@ -222,7 +223,6 @@ namespace amoba
             this.Name = "JatekTer";
             this.Text = "JatekTer";
             this.Load += new System.EventHandler(this.JatekTer_Load);
-            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.JatekTer_KeyPress);
             this.guna2GradientPanel102.ResumeLayout(false);
             this.guna2GradientPanel102.PerformLayout();
             this.guna2Panel1.ResumeLayout(false);
