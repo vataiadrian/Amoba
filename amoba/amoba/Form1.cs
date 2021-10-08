@@ -15,7 +15,7 @@ namespace amoba
     {
         static string elsojatekos = "";
         static string masodikjatekos = "";
-        static List<Nevek> nev = new List<Nevek>();
+        
         public Form1()
         {
             InitializeComponent();
@@ -23,18 +23,18 @@ namespace amoba
             jatekosnev2tb.Text = "asdfasd";
         }        
      
-        private void button1_Click(object sender, EventArgs e)
+        public void button1_Click(object sender, EventArgs e)
         {
             elsojatekos = jatekosnev1tb.Text;
             masodikjatekos = jatekosnev2tb.Text;
 
-            string segednev = jatekosnev1tb.Text + ";" + jatekosnev2tb.Text;
+            
             
 
             if (elsojatekos != "" && masodikjatekos != "")
             {
-                Nevek uj = new Nevek(segednev);
-                nev.Add(uj);
+                global.jatekosnev1 = elsojatekos;
+                global.jatekosnev2 = masodikjatekos;
                 JatekTer jatekter = new JatekTer();
                 this.Hide();
                 jatekter.ShowDialog(this);

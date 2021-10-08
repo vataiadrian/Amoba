@@ -90,7 +90,7 @@ namespace amoba
             Random r = new Random();
             if (r.Next(0, 100) >= 50)
             {
-
+                
             }
             else
             {

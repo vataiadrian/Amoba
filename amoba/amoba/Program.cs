@@ -8,6 +8,7 @@ namespace amoba
 {
     static class Program
     {
+        
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -18,5 +19,11 @@ namespace amoba
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
+
+    }
+    public static class global
+    {
+        public static string jatekosnev1;
+        public static string jatekosnev2;
     }
 }
