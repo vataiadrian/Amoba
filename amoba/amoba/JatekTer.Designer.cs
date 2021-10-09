@@ -75,6 +75,7 @@ namespace amoba
             this.guna2Panel1.FillColor = System.Drawing.Color.Transparent;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.ShadowDecoration.Enabled = true;
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
             this.guna2Panel1.Size = new System.Drawing.Size(1397, 823);
             this.guna2Panel1.TabIndex = 0;
@@ -84,7 +85,7 @@ namespace amoba
             // 
             this.jatekfolytbtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.jatekfolytbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.jatekfolytbtn.FlatAppearance.BorderSize = 0;
+            this.jatekfolytbtn.FlatAppearance.BorderSize = 3;
             this.jatekfolytbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.jatekfolytbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.jatekfolytbtn.ForeColor = System.Drawing.Color.Lime;
@@ -100,7 +101,7 @@ namespace amoba
             // 
             this.restertbtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.restertbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.restertbtn.FlatAppearance.BorderSize = 0;
+            this.restertbtn.FlatAppearance.BorderSize = 3;
             this.restertbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.restertbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.restertbtn.ForeColor = System.Drawing.Color.Lime;
@@ -116,7 +117,7 @@ namespace amoba
             // 
             this.menubtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.menubtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.menubtn.FlatAppearance.BorderSize = 0;
+            this.menubtn.FlatAppearance.BorderSize = 3;
             this.menubtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.menubtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.menubtn.ForeColor = System.Drawing.Color.Lime;
@@ -132,7 +133,7 @@ namespace amoba
             // 
             this.kilepesbtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.kilepesbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.kilepesbtn.FlatAppearance.BorderSize = 0;
+            this.kilepesbtn.FlatAppearance.BorderSize = 3;
             this.kilepesbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.kilepesbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.kilepesbtn.ForeColor = System.Drawing.Color.Lime;

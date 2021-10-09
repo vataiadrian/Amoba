@@ -43,5 +43,47 @@ namespace amoba
                 MessageBox.Show("Kérem adja meg a nevét!", "Hiányzó név", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void kilepbtn_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            button1.Visible = false;
+            button3.Visible = false;
+            button2.Visible = false;
+            kilepbtn.Visible = false;
+            visszabtn.Visible = true;
+            jatekosnev1tb.Visible = true;
+            jatekosnev2tb.Visible = true;
+            label1.Visible = true;
+            label2.Visible = true;
+        }
+
+        private void visszabtn_Click(object sender, EventArgs e)
+        {
+            button1.Visible = true;
+            button3.Visible = true;
+            button2.Visible = true;
+            kilepbtn.Visible = true;
+            visszabtn.Visible = false;
+            panel1.Visible = false;
+            jatekosnev1tb.Visible = false;
+            jatekosnev2tb.Visible = false;
+            label1.Visible = false;
+            label2.Visible = false;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button1.Visible = false;
+            button3.Visible = false;
+            button2.Visible = false;
+            kilepbtn.Visible = false;
+            panel1.Visible = true;
+            visszabtn.Visible = true;
+        }
     }
 }
