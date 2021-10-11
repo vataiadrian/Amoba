@@ -199,6 +199,7 @@ namespace amoba
                     labelok[i, j].Anchor = AnchorStyles.None;
                     labelok[i, j].Location = new System.Drawing.Point(yrajz, xrajz);
                     labelok[i, j].Click += new System.EventHandler(this.katt);
+                    labelok[i, j].Font = new Font("Arial", 32);
                     Controls.Add(labelok[i, j]);
                     labelok[i, j].BringToFront();
                 }
@@ -208,18 +209,35 @@ namespace amoba
         private void katt(object sender, EventArgs e)
         {
             bool elso = true;
+            Random r = new Random();
+            if (r.Next(0, 6) > 3)
+            {
+                elso = false;
+                kezdonevlbl.Text = labelX.Text;
+            }
+            else
+            {
+                elso = true;
+                kezdonevlbl.Text = labelO.Text;
+            }
+            
             Label kattintott = sender as Label;
             int y = Convert.ToInt32(kattintott.Name.Split(';')[0]);
             int x = Convert.ToInt32(kattintott.Name.Split(';')[1]);
 
             if (elso)
             {
-
+                labelok[y, x].Text="O";
+                labelok[y, x].ForeColor = System.Drawing.Color.Red;
                 korjelenes();
+                elso = false;
             }
             else
             {
+                labelok[y, x].Text = "X";
+                labelok[y, x].ForeColor = System.Drawing.Color.Blue;
                 xjelenes();
+                elso = true;
             }
         }
 
