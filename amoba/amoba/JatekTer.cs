@@ -46,6 +46,7 @@ namespace amoba
                         panelX.Visible = false;
                         label100.Visible = false;
                         label101.Visible = false;
+                        kezdonevlbl.Visible = false;
                         for (int i = 0; i < 10; i++)
                         {
                             for (int j = 0; j < 10; j++)
@@ -63,6 +64,7 @@ namespace amoba
                         panelX.Visible = true;
                         label100.Visible = true;
                         label101.Visible = true;
+                        kezdonevlbl.Visible = true;
                         for (int i = 0; i < 10; i++)
                         {
                             for (int j = 0; j < 10; j++)
