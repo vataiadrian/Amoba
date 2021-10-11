@@ -235,6 +235,7 @@ namespace amoba
 
                 labelok[y, x].Text="O";
                 labelok[y, x].ForeColor = System.Drawing.Color.Red;
+                kezdonevlbl.Text = labelX.Text;
                 //korjelenes();
                 elso = false;
             }
@@ -242,6 +243,7 @@ namespace amoba
             {
                 labelok[y, x].Text = "X";
                 labelok[y, x].ForeColor = System.Drawing.Color.Blue;
+                kezdonevlbl.Text = labelO.Text;
                 //xjelenes();
                 elso = true;
             }
