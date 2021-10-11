@@ -219,6 +219,7 @@ namespace amoba
             // 
             // kezdonevlbl
             // 
+            this.kezdonevlbl.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.kezdonevlbl.BackColor = System.Drawing.Color.Transparent;
             this.kezdonevlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.kezdonevlbl.ForeColor = System.Drawing.Color.Lime;
