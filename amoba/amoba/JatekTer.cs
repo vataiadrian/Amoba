@@ -13,6 +13,7 @@ namespace amoba
     public partial class JatekTer : Form
     {
         static Label[,] labelok = new Label[10, 10];
+        
         public JatekTer()
         {
             InitializeComponent();
@@ -116,7 +117,7 @@ namespace amoba
 
         private void generalas()
         {
-            int labelindexelo = 0;
+            
             int yrajz = 0;
             int xrajz = 0;
             for (int i = 0; i < 10; i++)
@@ -128,7 +129,7 @@ namespace amoba
                     labelok[i, j].BackColor = Color.FromArgb(127, 127, 127);
                     labelok[i, j].Name = i+";"+j;
 
-                    labelindexelo++;
+                    
                     switch (i)
                     {
                         case 0:
@@ -206,9 +207,30 @@ namespace amoba
 
         private void katt(object sender, EventArgs e)
         {
+            bool elso = true;
             Label kattintott = sender as Label;
             int y = Convert.ToInt32(kattintott.Name.Split(';')[0]);
             int x = Convert.ToInt32(kattintott.Name.Split(';')[1]);
+
+            if (elso)
+            {
+
+                korjelenes();
+            }
+            else
+            {
+                xjelenes();
+            }
+        }
+
+        private void xjelenes()
+        {
+            throw new NotImplementedException();
+        }
+
+        private void korjelenes()
+        {
+            throw new NotImplementedException();
         }
     }
 }
