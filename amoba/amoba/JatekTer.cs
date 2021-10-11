@@ -202,6 +202,7 @@ namespace amoba
                     labelok[i, j].Location = new System.Drawing.Point(yrajz, xrajz);
                     labelok[i, j].Click += new System.EventHandler(this.katt);
                     labelok[i, j].Font = new Font("Arial", 32);
+                    labelok[i, j].TextAlign = ContentAlignment.MiddleCenter;
                     Controls.Add(labelok[i, j]);
                     labelok[i, j].BringToFront();
                 }
@@ -231,14 +232,14 @@ namespace amoba
             {
                 labelok[y, x].Text="O";
                 labelok[y, x].ForeColor = System.Drawing.Color.Red;
-                korjelenes();
+                //korjelenes();
                 elso = false;
             }
             else
             {
                 labelok[y, x].Text = "X";
                 labelok[y, x].ForeColor = System.Drawing.Color.Blue;
-                xjelenes();
+                //xjelenes();
                 elso = true;
             }
         }
