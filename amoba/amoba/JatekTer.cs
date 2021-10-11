@@ -93,17 +93,61 @@ namespace amoba
 
         private void restertbtn_Click(object sender, EventArgs e)
         {
+            guna2Panel1.Visible = false;
+            panelO.Visible = true;
+            panelX.Visible = true;
+            label100.Visible = true;
+            label101.Visible = true;
+            kezdonevlbl.Visible = true;
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    labelok[i, j].Visible = true;
+                }
 
+            }
+
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    if (labelok[i, j].Text != "")
+                    {
+                        labelok[i, j].Text = "";
+                    }
+                }
+            }
+
+            NevekRandom();
         }
 
         private void jatekfolytbtn_Click(object sender, EventArgs e)
         {
+            guna2Panel1.Visible = false;
+            panelO.Visible = true;
+            panelX.Visible = true;
+            label100.Visible = true;
+            label101.Visible = true;
+            kezdonevlbl.Visible = true;
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    labelok[i, j].Visible = true;
+                }
 
+            }
         }
 
 
         //Játék
         private void JatekTer_Load(object sender, EventArgs e)
+        {
+            NevekRandom();
+        }
+
+        private void NevekRandom()
         {
             Random r = new Random();
             if (r.Next(0, 6) > 3)
@@ -251,12 +295,12 @@ namespace amoba
 
         private void xjelenes()
         {
-            throw new NotImplementedException();
+            
         }
 
         private void korjelenes()
         {
-            throw new NotImplementedException();
+            
         }
     }
 }
