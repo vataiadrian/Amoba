@@ -42,6 +42,7 @@ namespace amoba
             this.labelX = new System.Windows.Forms.Label();
             this.label101 = new System.Windows.Forms.Label();
             this.kezdonevlbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.kezdojatekostbx = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2GradientPanel102.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.panelO.SuspendLayout();
@@ -57,6 +58,7 @@ namespace amoba
             this.guna2GradientPanel102.Controls.Add(this.panelX);
             this.guna2GradientPanel102.Controls.Add(this.label101);
             this.guna2GradientPanel102.Controls.Add(this.kezdonevlbl);
+            this.guna2GradientPanel102.Controls.Add(this.kezdojatekostbx);
             this.guna2GradientPanel102.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2GradientPanel102.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(181)))), ((int)(((byte)(15)))));
             this.guna2GradientPanel102.FillColor2 = System.Drawing.Color.Black;
@@ -223,12 +225,42 @@ namespace amoba
             this.kezdonevlbl.BackColor = System.Drawing.Color.Transparent;
             this.kezdonevlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.kezdonevlbl.ForeColor = System.Drawing.Color.Lime;
-            this.kezdonevlbl.Location = new System.Drawing.Point(658, 761);
+            this.kezdonevlbl.Location = new System.Drawing.Point(659, 814);
             this.kezdonevlbl.Name = "kezdonevlbl";
             this.kezdonevlbl.Size = new System.Drawing.Size(81, 33);
             this.kezdonevlbl.TabIndex = 5;
             this.kezdonevlbl.Text = "kezdo";
             this.kezdonevlbl.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // kezdojatekostbx
+            // 
+            this.kezdojatekostbx.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.kezdojatekostbx.BackColor = System.Drawing.Color.Transparent;
+            this.kezdojatekostbx.BorderColor = System.Drawing.Color.Lime;
+            this.kezdojatekostbx.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.kezdojatekostbx.DefaultText = "";
+            this.kezdojatekostbx.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.kezdojatekostbx.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.kezdojatekostbx.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.kezdojatekostbx.DisabledState.Parent = this.kezdojatekostbx;
+            this.kezdojatekostbx.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.kezdojatekostbx.FillColor = System.Drawing.Color.Black;
+            this.kezdojatekostbx.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.kezdojatekostbx.FocusedState.Parent = this.kezdojatekostbx;
+            this.kezdojatekostbx.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.kezdojatekostbx.ForeColor = System.Drawing.Color.Lime;
+            this.kezdojatekostbx.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.kezdojatekostbx.HoverState.Parent = this.kezdojatekostbx;
+            this.kezdojatekostbx.Location = new System.Drawing.Point(480, 754);
+            this.kezdojatekostbx.Name = "kezdojatekostbx";
+            this.kezdojatekostbx.PasswordChar = '\0';
+            this.kezdojatekostbx.PlaceholderText = "";
+            this.kezdojatekostbx.ReadOnly = true;
+            this.kezdojatekostbx.SelectedText = "";
+            this.kezdojatekostbx.ShadowDecoration.Parent = this.kezdojatekostbx;
+            this.kezdojatekostbx.Size = new System.Drawing.Size(438, 36);
+            this.kezdojatekostbx.TabIndex = 6;
+            this.kezdojatekostbx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // JatekTer
             // 
@@ -264,5 +296,6 @@ namespace amoba
         private System.Windows.Forms.Label labelO;
         private System.Windows.Forms.Button jatekfolytbtn;
         private Guna.UI2.WinForms.Guna2HtmlLabel kezdonevlbl;
+        private Guna.UI2.WinForms.Guna2TextBox kezdojatekostbx;
     }
 }
