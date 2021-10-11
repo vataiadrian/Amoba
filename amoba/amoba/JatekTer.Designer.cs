@@ -41,6 +41,7 @@ namespace amoba
             this.panelX = new Guna.UI2.WinForms.Guna2Panel();
             this.labelX = new System.Windows.Forms.Label();
             this.label101 = new System.Windows.Forms.Label();
+            this.kezdonevlbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2GradientPanel102.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.panelO.SuspendLayout();
@@ -55,6 +56,7 @@ namespace amoba
             this.guna2GradientPanel102.Controls.Add(this.label100);
             this.guna2GradientPanel102.Controls.Add(this.panelX);
             this.guna2GradientPanel102.Controls.Add(this.label101);
+            this.guna2GradientPanel102.Controls.Add(this.kezdonevlbl);
             this.guna2GradientPanel102.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2GradientPanel102.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(181)))), ((int)(((byte)(15)))));
             this.guna2GradientPanel102.FillColor2 = System.Drawing.Color.Black;
@@ -215,6 +217,18 @@ namespace amoba
             this.label101.TabIndex = 4;
             this.label101.Text = "X";
             // 
+            // kezdonevlbl
+            // 
+            this.kezdonevlbl.BackColor = System.Drawing.Color.Transparent;
+            this.kezdonevlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.kezdonevlbl.ForeColor = System.Drawing.Color.Lime;
+            this.kezdonevlbl.Location = new System.Drawing.Point(658, 761);
+            this.kezdonevlbl.Name = "kezdonevlbl";
+            this.kezdonevlbl.Size = new System.Drawing.Size(81, 33);
+            this.kezdonevlbl.TabIndex = 5;
+            this.kezdonevlbl.Text = "kezdo";
+            this.kezdonevlbl.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // JatekTer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -248,5 +262,6 @@ namespace amoba
         private System.Windows.Forms.Label labelX;
         private System.Windows.Forms.Label labelO;
         private System.Windows.Forms.Button jatekfolytbtn;
+        private Guna.UI2.WinForms.Guna2HtmlLabel kezdonevlbl;
     }
 }

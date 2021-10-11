@@ -38,13 +38,13 @@ namespace amoba
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.kilepbtn = new System.Windows.Forms.Button();
-            this.visszabtn = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.visszabtn = new System.Windows.Forms.Button();
+            this.kilepbtn = new System.Windows.Forms.Button();
             this.guna2GradientPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -164,20 +164,62 @@ namespace amoba
             this.guna2GradientPanel1.Size = new System.Drawing.Size(1128, 697);
             this.guna2GradientPanel1.TabIndex = 7;
             // 
-            // kilepbtn
+            // panel1
             // 
-            this.kilepbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.kilepbtn.FlatAppearance.BorderSize = 3;
-            this.kilepbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.kilepbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.kilepbtn.ForeColor = System.Drawing.Color.Lime;
-            this.kilepbtn.Location = new System.Drawing.Point(786, 462);
-            this.kilepbtn.Name = "kilepbtn";
-            this.kilepbtn.Size = new System.Drawing.Size(296, 67);
-            this.kilepbtn.TabIndex = 7;
-            this.kilepbtn.Text = "Kilépés";
-            this.kilepbtn.UseVisualStyleBackColor = false;
-            this.kilepbtn.Click += new System.EventHandler(this.kilepbtn_Click);
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Location = new System.Drawing.Point(786, 180);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(296, 349);
+            this.panel1.TabIndex = 9;
+            this.panel1.Visible = false;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label6.ForeColor = System.Drawing.Color.Lime;
+            this.label6.Location = new System.Drawing.Point(47, 238);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(222, 31);
+            this.label6.TabIndex = 3;
+            this.label6.Text = "Boros Barnabás";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label5.ForeColor = System.Drawing.Color.Lime;
+            this.label5.Location = new System.Drawing.Point(47, 166);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(173, 31);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "Vatai Adrián";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label4.ForeColor = System.Drawing.Color.Lime;
+            this.label4.Location = new System.Drawing.Point(47, 96);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(209, 31);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Szévald Miklós";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.ForeColor = System.Drawing.Color.Lime;
+            this.label3.Location = new System.Drawing.Point(28, 31);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(211, 39);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Készítették:";
             // 
             // visszabtn
             // 
@@ -195,62 +237,20 @@ namespace amoba
             this.visszabtn.Visible = false;
             this.visszabtn.Click += new System.EventHandler(this.visszabtn_Click);
             // 
-            // panel1
+            // kilepbtn
             // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Location = new System.Drawing.Point(786, 180);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(296, 349);
-            this.panel1.TabIndex = 9;
-            this.panel1.Visible = false;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.ForeColor = System.Drawing.Color.Lime;
-            this.label3.Location = new System.Drawing.Point(28, 31);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(211, 39);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Készítették:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label4.ForeColor = System.Drawing.Color.Lime;
-            this.label4.Location = new System.Drawing.Point(47, 96);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(209, 31);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Szévald Miklós";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label5.ForeColor = System.Drawing.Color.Lime;
-            this.label5.Location = new System.Drawing.Point(47, 166);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(173, 31);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Vatai Adrián";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label6.ForeColor = System.Drawing.Color.Lime;
-            this.label6.Location = new System.Drawing.Point(47, 238);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(222, 31);
-            this.label6.TabIndex = 3;
-            this.label6.Text = "Boros Barnabás";
+            this.kilepbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.kilepbtn.FlatAppearance.BorderSize = 3;
+            this.kilepbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.kilepbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.kilepbtn.ForeColor = System.Drawing.Color.Lime;
+            this.kilepbtn.Location = new System.Drawing.Point(786, 462);
+            this.kilepbtn.Name = "kilepbtn";
+            this.kilepbtn.Size = new System.Drawing.Size(296, 67);
+            this.kilepbtn.TabIndex = 7;
+            this.kilepbtn.Text = "Kilépés";
+            this.kilepbtn.UseVisualStyleBackColor = false;
+            this.kilepbtn.Click += new System.EventHandler(this.kilepbtn_Click);
             // 
             // Form1
             // 
