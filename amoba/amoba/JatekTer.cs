@@ -274,10 +274,6 @@ namespace amoba
 
         private void katt(object sender, EventArgs e)
         {
-            
-            
-            
-            
             Label kattintott = sender as Label;
             int y = Convert.ToInt32(kattintott.Name.Split(';')[0]);
             int x = Convert.ToInt32(kattintott.Name.Split(';')[1]);
@@ -290,7 +286,7 @@ namespace amoba
                     labelok[y, x].ForeColor = System.Drawing.Color.Red;
                     kezdojatekostbx.Font = new Font("Arial", 24);
                     kezdojatekostbx.Text = labelX.Text;
-                    //korjelenes();
+                    xjelenes();
                     elso = false;
                 }
                 else
@@ -299,28 +295,68 @@ namespace amoba
                     labelok[y, x].ForeColor = System.Drawing.Color.Blue;
                     kezdojatekostbx.Font = new Font("Arial", 24);
                     kezdojatekostbx.Text = labelO.Text;
-                    //xjelenes();
+                    korjelenes();
                     elso = true;
                 }
-
             }
             else
             {
                 kezdonevlbl.Text = "Ne csaljál kis k*cs*g!";
 
-            }
-          
-                
-      }
+            }    
+        }
 
+        //Timer
         private void xjelenes()
         {
-            
+            timer2.Start();
         }
 
         private void korjelenes()
         {
-            
+            timer3.Start();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+                for (int i = 0; i < 10; i++)
+                {
+                    for (int j = 0; j < 10; j++)
+                    {
+                        labelok[i, j].Visible = true;
+                    }
+                }
+                nagyXlbl.Visible = false;
+                nagyOlbl.Visible = false;
+                timer1.Stop();
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    labelok[i, j].Visible = false;
+                }
+            }
+            timer2.Stop();
+            nagyXlbl.Visible = true;
+            timer1.Start();
+        }
+
+        private void timer3_Tick(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    labelok[i, j].Visible = false;
+                }
+            }
+            timer3.Stop();
+            nagyOlbl.Visible = true;
+            timer1.Start();
         }
     }
 }

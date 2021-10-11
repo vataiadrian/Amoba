@@ -29,6 +29,7 @@ namespace amoba
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.guna2GradientPanel102 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.jatekfolytbtn = new System.Windows.Forms.Button();
@@ -43,6 +44,11 @@ namespace amoba
             this.label101 = new System.Windows.Forms.Label();
             this.kezdonevlbl = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.kezdojatekostbx = new Guna.UI2.WinForms.Guna2TextBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.nagyXlbl = new System.Windows.Forms.Label();
+            this.nagyOlbl = new System.Windows.Forms.Label();
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.guna2GradientPanel102.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.panelO.SuspendLayout();
@@ -59,6 +65,8 @@ namespace amoba
             this.guna2GradientPanel102.Controls.Add(this.label101);
             this.guna2GradientPanel102.Controls.Add(this.kezdonevlbl);
             this.guna2GradientPanel102.Controls.Add(this.kezdojatekostbx);
+            this.guna2GradientPanel102.Controls.Add(this.nagyOlbl);
+            this.guna2GradientPanel102.Controls.Add(this.nagyXlbl);
             this.guna2GradientPanel102.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2GradientPanel102.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(181)))), ((int)(((byte)(15)))));
             this.guna2GradientPanel102.FillColor2 = System.Drawing.Color.Black;
@@ -162,14 +170,14 @@ namespace amoba
             // 
             // labelO
             // 
-            this.labelO.AutoSize = true;
             this.labelO.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelO.ForeColor = System.Drawing.Color.White;
-            this.labelO.Location = new System.Drawing.Point(16, 13);
+            this.labelO.Location = new System.Drawing.Point(14, 6);
             this.labelO.Name = "labelO";
-            this.labelO.Size = new System.Drawing.Size(66, 24);
+            this.labelO.Size = new System.Drawing.Size(172, 37);
             this.labelO.TabIndex = 5;
             this.labelO.Text = "label1";
+            this.labelO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label100
             // 
@@ -197,14 +205,14 @@ namespace amoba
             // 
             // labelX
             // 
-            this.labelX.AutoSize = true;
             this.labelX.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelX.ForeColor = System.Drawing.Color.White;
-            this.labelX.Location = new System.Drawing.Point(16, 13);
+            this.labelX.Location = new System.Drawing.Point(14, 6);
             this.labelX.Name = "labelX";
-            this.labelX.Size = new System.Drawing.Size(66, 24);
+            this.labelX.Size = new System.Drawing.Size(172, 37);
             this.labelX.TabIndex = 6;
             this.labelX.Text = "label1";
+            this.labelX.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label101
             // 
@@ -222,12 +230,13 @@ namespace amoba
             // kezdonevlbl
             // 
             this.kezdonevlbl.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.kezdonevlbl.AutoSize = false;
             this.kezdonevlbl.BackColor = System.Drawing.Color.Transparent;
             this.kezdonevlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.kezdonevlbl.ForeColor = System.Drawing.Color.Lime;
-            this.kezdonevlbl.Location = new System.Drawing.Point(659, 814);
+            this.kezdonevlbl.Location = new System.Drawing.Point(480, 814);
             this.kezdonevlbl.Name = "kezdonevlbl";
-            this.kezdonevlbl.Size = new System.Drawing.Size(81, 33);
+            this.kezdonevlbl.Size = new System.Drawing.Size(438, 35);
             this.kezdonevlbl.TabIndex = 5;
             this.kezdonevlbl.Text = "kezdo";
             this.kezdonevlbl.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -262,6 +271,47 @@ namespace amoba
             this.kezdojatekostbx.TabIndex = 6;
             this.kezdojatekostbx.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 500;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // nagyXlbl
+            // 
+            this.nagyXlbl.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.nagyXlbl.BackColor = System.Drawing.Color.Transparent;
+            this.nagyXlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 399.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.nagyXlbl.ForeColor = System.Drawing.Color.Blue;
+            this.nagyXlbl.Location = new System.Drawing.Point(417, 75);
+            this.nagyXlbl.Name = "nagyXlbl";
+            this.nagyXlbl.Size = new System.Drawing.Size(586, 583);
+            this.nagyXlbl.TabIndex = 7;
+            this.nagyXlbl.Text = "X";
+            this.nagyXlbl.Visible = false;
+            // 
+            // nagyOlbl
+            // 
+            this.nagyOlbl.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.nagyOlbl.BackColor = System.Drawing.Color.Transparent;
+            this.nagyOlbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 399.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.nagyOlbl.ForeColor = System.Drawing.Color.Red;
+            this.nagyOlbl.Location = new System.Drawing.Point(389, 65);
+            this.nagyOlbl.Name = "nagyOlbl";
+            this.nagyOlbl.Size = new System.Drawing.Size(586, 583);
+            this.nagyOlbl.TabIndex = 8;
+            this.nagyOlbl.Text = "O";
+            this.nagyOlbl.Visible = false;
+            // 
+            // timer2
+            // 
+            this.timer2.Interval = 600;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
+            // timer3
+            // 
+            this.timer3.Interval = 600;
+            this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
+            // 
             // JatekTer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -275,9 +325,7 @@ namespace amoba
             this.guna2GradientPanel102.PerformLayout();
             this.guna2Panel1.ResumeLayout(false);
             this.panelO.ResumeLayout(false);
-            this.panelO.PerformLayout();
             this.panelX.ResumeLayout(false);
-            this.panelX.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -297,5 +345,10 @@ namespace amoba
         private System.Windows.Forms.Button jatekfolytbtn;
         private Guna.UI2.WinForms.Guna2HtmlLabel kezdonevlbl;
         private Guna.UI2.WinForms.Guna2TextBox kezdojatekostbx;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label nagyXlbl;
+        private System.Windows.Forms.Label nagyOlbl;
+        private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Timer timer3;
     }
 }
