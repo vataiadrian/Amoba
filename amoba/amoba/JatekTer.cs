@@ -231,6 +231,7 @@ namespace amoba
 
             if (elso)
             {
+
                 labelok[y, x].Text="O";
                 labelok[y, x].ForeColor = System.Drawing.Color.Red;
                 korjelenes();
