@@ -167,13 +167,17 @@ namespace amoba
             if (r.Next(0, 6) > 3)
             {
                 elso = false;
-                kezdonevlbl.Text = labelX.Text;
+                kezdojatekostbx.Font = new Font("Arial", 24);
+                kezdojatekostbx.Text = labelX.Text;
             }
             else
             {
                 elso = true;
-                kezdonevlbl.Text = labelO.Text;
+                kezdojatekostbx.Font = new Font("Arial", 24);
+                kezdojatekostbx.Text = labelO.Text;
+                
             }
+            kezdonevlbl.Text = "";
         }
 
         private void generalas()
@@ -284,7 +288,8 @@ namespace amoba
 
                     labelok[y, x].Text = "O";
                     labelok[y, x].ForeColor = System.Drawing.Color.Red;
-                    kezdonevlbl.Text = labelX.Text;
+                    kezdojatekostbx.Font = new Font("Arial", 24);
+                    kezdojatekostbx.Text = labelX.Text;
                     //korjelenes();
                     elso = false;
                 }
@@ -292,10 +297,16 @@ namespace amoba
                 {
                     labelok[y, x].Text = "X";
                     labelok[y, x].ForeColor = System.Drawing.Color.Blue;
-                    kezdonevlbl.Text = labelO.Text;
+                    kezdojatekostbx.Font = new Font("Arial", 24);
+                    kezdojatekostbx.Text = labelO.Text;
                     //xjelenes();
                     elso = true;
                 }
+
+            }
+            else
+            {
+                kezdonevlbl.Text = "Ne csaljál kis k*cs*g!";
 
             }
           
