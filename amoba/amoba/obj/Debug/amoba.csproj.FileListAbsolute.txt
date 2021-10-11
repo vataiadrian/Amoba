@@ -46,7 +46,6 @@ C:\Users\szevaldmiklosdaniel\source\repos\Amoba\amoba\amoba\obj\Debug\amoba.cspr
 C:\Users\szevaldmiklosdaniel\source\repos\Amoba\amoba\amoba\obj\Debug\amoba.csproj.CopyComplete
 C:\Users\szevaldmiklosdaniel\source\repos\Amoba\amoba\amoba\obj\Debug\amoba.exe
 C:\Users\szevaldmiklosdaniel\source\repos\Amoba\amoba\amoba\obj\Debug\amoba.pdb
-C:\Users\szevaldmiklosdaniel\Source\Repos\Amoba\amoba\amoba\obj\Debug\amoba.csproj.AssemblyReference.cache
 D:\Sulis\14\TP\Amoba\amoba\amoba\bin\Debug\amoba.exe.config
 D:\Sulis\14\TP\Amoba\amoba\amoba\bin\Debug\amoba.exe
 D:\Sulis\14\TP\Amoba\amoba\amoba\bin\Debug\amoba.pdb
@@ -64,3 +63,4 @@ D:\Sulis\14\TP\Amoba\amoba\amoba\bin\Debug\FlatButton.dll
 D:\Sulis\14\TP\Amoba\amoba\amoba\bin\Debug\JDragControl.dll
 D:\Sulis\14\TP\Amoba\amoba\amoba\bin\Debug\JThinButton.dll
 C:\Users\borosbarnabas\source\repos\Amoba\amoba\amoba\obj\Debug\amoba.csprojAssemblyReference.cache
+C:\Users\szevaldmiklosdaniel\source\repos\Amoba\amoba\amoba\obj\Debug\amoba.csprojAssemblyReference.cache
