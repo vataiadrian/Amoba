@@ -273,25 +273,30 @@ namespace amoba
             Label kattintott = sender as Label;
             int y = Convert.ToInt32(kattintott.Name.Split(';')[0]);
             int x = Convert.ToInt32(kattintott.Name.Split(';')[1]);
-
-            if (elso)
+            if (labelok[y, x].Text == "")
             {
+                if (elso)
+                {
 
-                labelok[y, x].Text="O";
-                labelok[y, x].ForeColor = System.Drawing.Color.Red;
-                kezdonevlbl.Text = labelX.Text;
-                //korjelenes();
-                elso = false;
+                    labelok[y, x].Text = "O";
+                    labelok[y, x].ForeColor = System.Drawing.Color.Red;
+                    kezdonevlbl.Text = labelX.Text;
+                    //korjelenes();
+                    elso = false;
+                }
+                else
+                {
+                    labelok[y, x].Text = "X";
+                    labelok[y, x].ForeColor = System.Drawing.Color.Blue;
+                    kezdonevlbl.Text = labelO.Text;
+                    //xjelenes();
+                    elso = true;
+                }
+
             }
-            else
-            {
-                labelok[y, x].Text = "X";
-                labelok[y, x].ForeColor = System.Drawing.Color.Blue;
-                kezdonevlbl.Text = labelO.Text;
-                //xjelenes();
-                elso = true;
-            }
-        }
+          
+                
+      }
 
         private void xjelenes()
         {
