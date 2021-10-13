@@ -298,12 +298,18 @@ namespace amoba
                     korjelenes();
                     elso = true;
                 }
+                ellenorzes();
             }
             else
             {
                 kezdonevlbl.Text = "Ne csaljál kis k*cs*g!";
 
             }    
+        }
+
+        private void ellenorzes()
+        {
+            throw new NotImplementedException();
         }
 
         //Timer
