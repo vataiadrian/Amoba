@@ -307,7 +307,7 @@ namespace amoba
 
         private void ellenorzes()
         {
-            throw new NotImplementedException();
+            
         }
     }
 }
