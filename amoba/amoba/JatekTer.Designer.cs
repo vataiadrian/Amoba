@@ -274,7 +274,7 @@ namespace amoba
             // timer1
             // 
             this.timer1.Interval = 500;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+//            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // nagyXlbl
             // 
@@ -305,12 +305,12 @@ namespace amoba
             // timer2
             // 
             this.timer2.Interval = 600;
-            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+//            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // timer3
             // 
             this.timer3.Interval = 600;
-            this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
+ //           this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
             // 
             // JatekTer
             // 
